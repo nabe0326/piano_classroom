@@ -1,0 +1,626 @@
+/* レッスンコース・料金ページのスタイル */
+
+/* ページヘッダー */
+.page-header {
+    background: linear-gradient(to right, rgba(245, 162, 177, 0.9), rgba(245, 162, 177, 0.7)), url('../images/page-header-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 0 40px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.page-title {
+    font-size: 32px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.breadcrumbs {
+    font-size: 14px;
+}
+
+.breadcrumbs a {
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+    text-decoration: underline;
+}
+
+/* イントロダクション */
+.course-intro {
+    padding: 60px 0;
+}
+
+.intro-content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px;
+}
+
+.intro-title {
+    color: #e5304b;
+    font-size: 28px;
+    margin-bottom: 30px;
+    line-height: 1.4;
+}
+
+.intro-text {
+    color: #555;
+    line-height: 1.8;
+}
+
+.intro-text p {
+    margin-bottom: 15px;
+}
+
+/* 無料体験バナー */
+.free-trial-banner {
+    background: linear-gradient(135deg, #f5a2b1, #f7d488);
+    border-radius: 15px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+.banner-icon {
+    font-size: 40px;
+    margin-right: 25px;
+}
+
+.banner-content {
+    flex: 1;
+}
+
+.banner-content h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.trial-btn {
+    background: white;
+    color: #e5304b;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+    margin-left: 20px;
+}
+
+.trial-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* メインコース一覧 */
+.main-courses {
+    padding: 60px 0;
+    background-color: #fff9fa;
+}
+
+.course-detail-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+.course-header {
+    background: linear-gradient(to right, #f5a2b1, #f7d488);
+    padding: 20px 30px;
+    color: white;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.course-name {
+    font-size: 24px;
+    margin: 0;
+}
+
+.course-badge {
+    background: white;
+    color: #e5304b;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+.course-body {
+    display: flex;
+    padding: 30px;
+}
+
+@media (max-width: 768px) {
+    .course-body {
+        flex-direction: column;
+    }
+}
+
+.course-image {
+    width: 35%;
+    padding-right: 30px;
+}
+
+.course-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .course-image {
+        width: 100%;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+.course-info {
+    flex: 1;
+}
+
+.course-overview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+.info-group {
+    min-width: 30%;
+}
+
+.info-title {
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 8px;
+}
+
+.info-content {
+    font-size: 16px;
+    color: #333;
+}
+
+.primary-text {
+    color: #e5304b;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.info-note {
+    font-size: 13px;
+    color: #999;
+    margin-top: 5px;
+}
+
+.course-description {
+    color: #555;
+}
+
+.desc-title {
+    color: #e5304b;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.course-features {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.course-features li {
+    margin-bottom: 10px;
+    position: relative;
+    padding-left: 25px;
+}
+
+.course-features li:before {
+    content: '✓';
+    color: #e5304b;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+}
+
+.course-footer {
+    padding: 20px 30px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-top: 1px solid #eee;
+}
+
+.course-contact-btn {
+    display: inline-block;
+    background: #e5304b;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.course-contact-btn:hover {
+    background: #d02539;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* 専門コース一覧 */
+.special-courses {
+    padding: 60px 0;
+}
+
+.special-courses-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.special-course-card {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.special-course-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.special-course-card::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to right, #f5a2b1, #f7d488);
+}
+
+.course-icon {
+    font-size: 36px;
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background: #fff9fa;
+    border-radius: 50%;
+    color: #e5304b;
+}
+
+.special-course-name {
+    color: #e5304b;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.special-course-price {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.special-course-desc {
+    color: #666;
+    margin-bottom: 20px;
+    min-height: 80px;
+}
+
+.special-course-teacher {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.special-course-link {
+    color: #e5304b;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.special-course-link:hover {
+    color: #d02539;
+    transform: translateX(5px);
+}
+
+/* レッスン料金表 */
+.price-table {
+    padding: 60px 0;
+    background-color: #fff9fa;
+}
+
+.price-table-container {
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+
+.price-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.price-list-table th {
+    background: #f5a2b1;
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+.price-list-table th:first-child {
+    border-top-left-radius: 10px;
+}
+
+.price-list-table th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.price-list-table td {
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.price-list-table tr:last-child td {
+    border-bottom: none;
+}
+
+.price-list-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.price-notes {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.notes-title {
+    color: #e5304b;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.notes-list {
+    padding-left: 20px;
+    color: #666;
+}
+
+.notes-list li {
+    margin-bottom: 10px;
+}
+
+/* FAQ */
+.faq {
+    padding: 60px 0;
+}
+
+.faq-list {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.faq-question {
+    padding: 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.faq-question:hover {
+    background: #fff9fa;
+}
+
+.q-mark, .a-mark {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.q-mark {
+    background: #f5a2b1;
+    color: white;
+}
+
+.a-mark {
+    background: #e0e0e0;
+    color: #555;
+}
+
+.faq-question h3 {
+    flex: 1;
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+.toggle-icon {
+    font-size: 24px;
+    color: #999;
+    transition: all 0.3s ease;
+}
+
+.faq-item.active .toggle-icon {
+    transform: rotate(45deg);
+}
+
+.faq-answer {
+    padding: 0 20px 20px;
+    display: flex;
+    background: white;
+}
+
+.faq-answer p {
+    color: #666;
+    flex: 1;
+}
+
+/* お問い合わせ・申し込み */
+.contact {
+    padding: 60px 0;
+    background-color: #fff9fa;
+}
+
+.contact-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px;
+    color: #555;
+}
+
+.contact-methods {
+    display: flex;
+    gap: 40px;
+}
+
+@media (max-width: 768px) {
+    .contact-methods {
+        flex-direction: column;
+    }
+}
+
+.contact-form {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.contact-form h3 {
+    color: #e5304b;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.contact-info {
+    width: 350px;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 768px) {
+    .contact-info {
+        width: 100%;
+    }
+}
+
+.contact-info h3 {
+    color: #e5304b;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.phone-number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.phone-hours {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.address, .access-info {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* フォーム要素のスタイル */
+.wpcf7-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.wpcf7-form input[type="text"],
+.wpcf7-form input[type="email"],
+.wpcf7-form input[type="tel"],
+.wpcf7-form textarea,
+.wpcf7-form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.wpcf7-form textarea {
+    height: 150px;
+}
+
+.wpcf7-form input[type="submit"] {
+    background: #e5304b;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.wpcf7-form input[type="submit"]:hover {
+    background: #d02539;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* JavaScript for FAQ Accordion */
+.faq-answer {
+    display: none;
+}
+
+.faq-item.active .faq-answer {
+    display: flex;
+}

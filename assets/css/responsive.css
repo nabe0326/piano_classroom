@@ -1,0 +1,145 @@
+/* Mobile Responsive Styles */
+
+/* Large devices */
+@media (max-width: 1200px) {
+    .container {
+        padding: 0 30px;
+    }
+}
+
+/* Medium devices */
+@media (max-width: 960px) {
+    .hero-inner, .about-inner, .access-inner {
+        flex-direction: column;
+    }
+    
+    .hero-content, .hero-image, .about-content, .about-image, .teacher-image, .teacher-info, .access-map, .access-info {
+        width: 100%;
+    }
+    
+    .hero-image {
+        margin-top: 40px;
+        text-align: center;
+    }
+    
+    .philosophy-card {
+        width: 48%;
+    }
+    
+    .course-card {
+        min-width: 100%;
+    }
+    
+    .teacher-profile {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .teacher-image {
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    
+    .footer-inner {
+        flex-wrap: wrap;
+    }
+    
+    .footer-info {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    
+    .footer-nav {
+        width: 45%;
+    }
+    
+    .contact-methods {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Small devices */
+@media (max-width: 768px) {
+    .hero {
+        padding: 120px 0 60px;
+    }
+    
+    .header-inner {
+        padding: 15px;
+    }
+    
+    .nav-toggle {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        color: var(--text-color);
+        cursor: pointer;
+    }
+    
+    .nav-menu {
+        position: fixed;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background-color: var(--white);
+        box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+        padding: 20px 0;
+        transform: translateY(-150%);
+        transition: transform 0.3s ease;
+        z-index: 900;
+    }
+    
+    .nav-menu.active {
+        transform: translateY(0);
+    }
+    
+    .nav-menu li {
+        margin: 15px 0;
+        text-align: center;
+    }
+    
+    .section {
+        padding: 40px 0;
+    }
+    
+    .section-title {
+        font-size: 1.6rem;
+    }
+    
+    .hero-title {
+        font-size: 2rem;
+    }
+    
+    .philosophy-card {
+        width: 100%;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .hero-title {
+        font-size: 1.8rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    .footer-nav {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
