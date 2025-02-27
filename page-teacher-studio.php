@@ -24,7 +24,7 @@ get_header();
             
             <div class="main-teacher-profile">
                 <div class="teacher-photo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/teacher-main.jpg" alt="中村真子先生">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teacherMain.webp" alt="中村真子先生">
                     <div class="teacher-name-plate">
                         <h3 class="teacher-name">中村 真子</h3>
                         <p class="teacher-name-en">Mako Nakamura</p>
@@ -70,7 +70,7 @@ get_header();
                     <!-- 講師1 -->
                     <div class="staff-card">
                         <div class="staff-photo">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/teacher-1.jpg" alt="井本裕美先生">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teacherMain.webp" alt="井本裕美先生">
                         </div>
                         <div class="staff-info">
                             <h4 class="staff-name">井本 裕美</h4>
@@ -82,7 +82,7 @@ get_header();
                     <!-- 講師2 -->
                     <div class="staff-card">
                         <div class="staff-photo">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/teacher-2.jpg" alt="出野真子先生">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teacherMain.webp" alt="出野真子先生">
                         </div>
                         <div class="staff-info">
                             <h4 class="staff-name">出野 真子</h4>
@@ -94,7 +94,7 @@ get_header();
                     <!-- 講師3 -->
                     <div class="staff-card">
                         <div class="staff-photo">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/teacher-3.jpg" alt="西田夫佐先生">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teacherMain.webp" alt="西田夫佐先生">
                         </div>
                         <div class="staff-info">
                             <h4 class="staff-name">西田 夫佐</h4>
@@ -106,7 +106,7 @@ get_header();
                     <!-- 講師4 -->
                     <div class="staff-card">
                         <div class="staff-photo">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/teacher-4.jpg" alt="細見麻里子先生">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teacherMain.webp" alt="細見麻里子先生">
                         </div>
                         <div class="staff-info">
                             <h4 class="staff-name">細見 麻里子</h4>
@@ -179,16 +179,16 @@ get_header();
             
             <div class="studio-gallery">
                 <div class="gallery-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/studio-main-1.jpg" alt="本校スタジオ外観">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioMain.webp" alt="本校スタジオ外観">
                 </div>
                 <div class="gallery-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/studio-main-2.jpg" alt="本校レッスンルーム">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioMain.webp" alt="本校レッスンルーム">
                 </div>
                 <div class="gallery-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/studio-main-3.jpg" alt="本校グランドピアノ">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioMain.webp" alt="本校グランドピアノ">
                 </div>
                 <div class="gallery-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/studio-main-4.jpg" alt="本校待合室">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioMain.webp" alt="本校待合室">
                 </div>
             </div>
         </div>
@@ -205,16 +205,16 @@ get_header();
             
             <div class="studio-gallery">
                 <div class="gallery-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/studio-branch-1.jpg" alt="分校レッスンルーム1">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioMain.webp" alt="分校レッスンルーム1">
                 </div>
                 <div class="gallery-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/studio-branch-2.jpg" alt="分校グランドピアノ">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioMain.webp" alt="分校グランドピアノ">
                 </div>
                 <div class="gallery-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/studio-branch-3.jpg" alt="分校レッスンルーム2">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioMain.webp" alt="分校レッスンルーム2">
                 </div>
                 <div class="gallery-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/studio-branch-4.jpg" alt="分校待合室">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioMain.webp" alt="分校待合室">
                 </div>
             </div>
             
