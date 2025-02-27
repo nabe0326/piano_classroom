@@ -561,11 +561,15 @@ header {
 
 .access-map {
     flex: 1;
-    height: 350px;
+    height:350px;
     border-radius: var(--border-radius);
     overflow: hidden;
     box-shadow: var(--shadow);
     border: 5px solid var(--light-bg);
+}
+
+.access-map img {
+    height: 100%;
 }
 
 .access-info {

@@ -15,7 +15,7 @@
                     <h3>ピアノ個人コース</h3>
                 </div>
                 <div class="course-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/course-1.jpg" alt="ピアノ個人レッスン" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/privateLessons.webp" alt="ピアノ個人レッスン" />
                 </div>
                 <div class="course-content">
                     <div class="course-price">年間42回/30分 6,500円～</div>
@@ -30,7 +30,7 @@
                     <h3>幼児2年間コース</h3>
                 </div>
                 <div class="course-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/course-2.jpg" alt="幼児コース" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/infantLessons.webp" alt="幼児コース" />
                 </div>
                 <div class="course-content">
                     <div class="course-price">月3回/30分 6,000円～</div>
@@ -45,7 +45,7 @@
                     <h3>YAMAHAコース</h3>
                 </div>
                 <div class="course-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/course-3.jpg" alt="YAMAHAコース" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yamahaLessons.webp" alt="YAMAHAコース" />
                 </div>
                 <div class="course-content">
                     <div class="course-price">月3回/30分 6,000円～</div>
