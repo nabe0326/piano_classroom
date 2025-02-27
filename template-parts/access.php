@@ -9,7 +9,7 @@
         <h2 class="section-title">アクセス</h2>
         <div class="access-inner">
             <div class="access-map">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/map.jpg" alt="教室へのアクセスマップ" />
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/map.webp" alt="教室へのアクセスマップ" />
             </div>
             <div class="access-info">
                 <dl>
