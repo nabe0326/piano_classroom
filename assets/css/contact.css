@@ -1,0 +1,453 @@
+/* お問い合わせページのスタイル */
+/* ページヘッダー */
+.page-header {
+    background: linear-gradient(135deg, rgba(245, 162, 177, 0.9), rgba(229, 48, 75, 0.8)), url('../images/piano_lesson.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 8vh;
+}
+
+/* 装飾的な要素 */
+.page-header::before {
+    content: '';
+    position: absolute;
+    top: -10%;
+    right: -5%;
+    width: 200px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.page-header::after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* ヘッダーコンテンツ */
+.page-header-content {
+    position: relative;
+    z-index: 2;
+}
+
+.page-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: inline-block;
+}
+
+.page-title::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 25%;
+    width: 50%;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+}
+
+/* 音符の装飾 */
+.header-notes {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.3);
+    z-index: 1;
+}
+
+.header-note-1 {
+    top: 20px;
+    left: 10%;
+    font-size: 24px;
+    animation: float-note 8s ease-in-out infinite;
+}
+
+.header-note-2 {
+    bottom: 30px;
+    right: 15%;
+    font-size: 28px;
+    animation: float-note 10s ease-in-out infinite 1s;
+}
+
+@keyframes float-note {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-15px) rotate(10deg);
+    }
+}
+
+/* レスポンシブ調整 */
+@media (max-width: 768px) {
+    .page-header {
+        padding: 50px 0 30px;
+    }
+    
+    .page-title {
+        font-size: 28px;
+    }
+    
+    .page-header::before,
+    .page-header::after {
+        width: 120px;
+        height: 120px;
+    }
+}
+/* 共通セクションスタイル */
+.contact-section {
+    padding: 60px 0;
+}
+
+/* イントロ部分 */
+.contact-intro {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* お問い合わせ方法カード */
+.contact-methods {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+@media (max-width: 768px) {
+    .contact-methods {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.contact-method-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.contact-method-card:hover {
+    transform: translateY(-5px);
+}
+
+.method-icon {
+    font-size: 36px;
+    color: #e5304b;
+    margin-bottom: 15px;
+}
+
+.contact-method-card h3 {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.phone-number {
+    font-size: 22px;
+    font-weight: bold;
+    color: #e5304b;
+    margin-bottom: 5px;
+}
+
+.contact-hours, .response-time {
+    font-size: 14px;
+    color: #888;
+}
+
+/* フォームコンテナ */
+.contact-form-container {
+    background: #fff9fa;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    max-width: 800px;
+    margin: 0 auto 60px;
+}
+
+.form-title {
+    color: #e5304b;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-title::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(to right, #f7d488, #f5a2b1);
+    margin: 15px auto 0;
+    border-radius: 3px;
+}
+
+.form-description {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.required-mark {
+    display: inline-block;
+    background: #e5304b;
+    color: white;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin: 0 5px;
+}
+
+/* Contact Form 7 カスタマイズ */
+.wpcf7-form {
+    margin: 0;
+}
+
+.form-row {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 25px;
+}
+
+.form-row:last-child {
+    border-bottom: none;
+}
+
+.form-row label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.form-label {
+    display: flex;
+    align-items: center;
+}
+
+.required {
+    display: inline-block;
+    background: #e5304b;
+    color: white;
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.wpcf7-form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.wpcf7-form-control:focus {
+    border-color: #f5a2b1;
+    outline: none;
+}
+
+.wpcf7-form-control.wpcf7-select {
+    height: 45px;
+}
+
+.wpcf7-textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.age-field {
+    display: flex;
+    align-items: center;
+}
+
+.age-input {
+    width: 80px !important;
+    margin-right: 10px;
+}
+
+.form-notes {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+}
+
+/* プライバシーポリシー同意 */
+.privacy-policy-agreement {
+    margin: 30px 0;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.wpcf7-acceptance label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.wpcf7-acceptance input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+.privacy-link {
+    color: #e5304b;
+    text-decoration: none;
+}
+
+.privacy-link:hover {
+    text-decoration: underline;
+}
+
+/* 送信ボタン */
+.submit-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.wpcf7-submit {
+    background: #e5304b;
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(229, 48, 75, 0.2);
+}
+
+.wpcf7-submit:hover {
+    background: #d02539;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(229, 48, 75, 0.3);
+}
+
+/* エラーメッセージ */
+.wpcf7-not-valid-tip {
+    color: #e5304b;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.wpcf7-response-output {
+    margin: 20px 0 !important;
+    padding: 15px !important;
+    border-radius: 8px;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* FAQ セクション */
+.faq-section {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-items {
+    margin-top: 30px;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.faq-question {
+    padding: 18px 20px;
+    background: white;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.faq-question:hover {
+    background: #f9f9f9;
+}
+
+.q-mark, .a-mark {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+.q-mark {
+    background: #f5a2b1;
+    color: white;
+}
+
+.a-mark {
+    background: #eee;
+    color: #555;
+}
+
+.faq-question h3 {
+    flex: 1;
+    font-size: 17px;
+    margin: 0;
+    color: #333;
+}
+
+.toggle-icon {
+    font-size: 22px;
+    color: #999;
+    transition: transform 0.3s;
+}
+
+.faq-item.active .toggle-icon {
+    transform: rotate(45deg);
+}
+
+.faq-answer {
+    padding: 0 20px 20px;
+    display: none;
+    background: white;
+}
+
+.faq-item.active .faq-answer {
+    display: flex;
+}
+
+.faq-answer p {
+    margin: 0;
+    color: #666;
+}

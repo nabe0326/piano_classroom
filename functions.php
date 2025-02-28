@@ -59,7 +59,12 @@ function piano_school_enqueue_teacher_studio_assets() {
 }
 add_action('wp_enqueue_scripts', 'piano_school_enqueue_teacher_studio_assets');
 
-
+function piano_school_enqueue_contact_assets() {
+    if (is_page_template('page-contact.php') || is_page('contact')) {
+        wp_enqueue_style('piano-school-contact', get_template_directory_uri() . '/assets/css/contact.css');
+    }
+}
+add_action('wp_enqueue_scripts', 'piano_school_enqueue_contact_assets');
 
 // カスタム投稿タイプ: コース
 function piano_school_register_post_types() {
