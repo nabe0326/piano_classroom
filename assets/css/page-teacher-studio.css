@@ -2,33 +2,116 @@
 
 /* ページヘッダー */
 .page-header {
-    background: linear-gradient(to right, rgba(245, 162, 177, 0.9), rgba(245, 162, 177, 0.7)), url('../images/page-header-bg.jpg');
+    background: linear-gradient(135deg, rgba(245, 162, 177, 0.9), rgba(229, 48, 75, 0.8)), url('../images/piano_lesson.jpg');
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 80px 0 40px;
+    position: relative;
+    overflow: hidden;
+    padding: 60px 0 40px;
     text-align: center;
-    margin-bottom: 50px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 装飾的な要素 */
+.page-header::before {
+    content: '';
+    position: absolute;
+    top: -10%;
+    right: -5%;
+    width: 200px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.page-header::after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* ヘッダーコンテンツ */
+.page-header-content {
+    position: relative;
+    z-index: 2;
 }
 
 .page-title {
     font-size: 32px;
-    margin-bottom: 15px;
     font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: inline-block;
 }
 
-.breadcrumbs {
-    font-size: 14px;
+.page-title::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 25%;
+    width: 50%;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
 }
 
-.breadcrumbs a {
-    color: white;
-    text-decoration: none;
+/* 音符の装飾 */
+.header-notes {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.3);
+    z-index: 1;
 }
 
-.breadcrumbs a:hover {
-    text-decoration: underline;
+.header-note-1 {
+    top: 20px;
+    left: 10%;
+    font-size: 24px;
+    animation: float-note 8s ease-in-out infinite;
 }
+
+.header-note-2 {
+    bottom: 30px;
+    right: 15%;
+    font-size: 28px;
+    animation: float-note 10s ease-in-out infinite 1s;
+}
+
+@keyframes float-note {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-15px) rotate(10deg);
+    }
+}
+
+/* レスポンシブ調整 */
+@media (max-width: 768px) {
+    .page-header {
+        padding: 50px 0 30px;
+    }
+    
+    .page-title {
+        font-size: 28px;
+    }
+    
+    .page-header::before,
+    .page-header::after {
+        width: 120px;
+        height: 120px;
+    }
+}
+
 
 /* 共通セクションスタイル */
 .section {

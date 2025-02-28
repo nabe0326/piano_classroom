@@ -21,10 +21,10 @@ get_header(); ?>
     get_template_part('template-parts/teacher-home');
     
     // アクセスセクション
-    get_template_part('template-parts/access');
+    get_template_part('template-parts/access-parts');
     
     // お問い合わせセクション
-    get_template_part('template-parts/contact');
+    get_template_part('template-parts/contact-parts');
     ?>
 </main>
 
