@@ -2,10 +2,6 @@
 <section class="section courses" id="courses">
     <div class="container">
         <h2 class="section-title">レッスンコース</h2>
-        
-        <div class="enrollment-banner">
-            <p>ピアノ専科では、子どもの「できた！」を大切にする指導を行っています</p>
-        </div>
 
         <div class="courses-grid">
             <!-- ピアノ個人コース -->
