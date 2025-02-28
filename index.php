@@ -18,7 +18,7 @@ get_header(); ?>
     get_template_part('template-parts/courses');
     
     // 講師紹介セクション
-    get_template_part('template-parts/teachers');
+    get_template_part('template-parts/teacher-home');
     
     // アクセスセクション
     get_template_part('template-parts/access');
