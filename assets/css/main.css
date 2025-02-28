@@ -742,7 +742,7 @@ header {
 
 
 /* Access Section Styles */
-.access {
+/* .access {
     background-color: var(--white);
 }
 
@@ -785,10 +785,67 @@ header {
     margin-bottom: 15px;
     padding-left: 10px;
     border-left: 2px solid #eee;
+} */
+
+.studio-overview {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+    .studio-overview {
+        flex-direction: column;
+    }
+}
+
+.studio-info-box {
+    flex: 1;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.studio-details {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.studio-details th {
+    padding: 15px 10px;
+    width: 120px;
+    text-align: left;
+    vertical-align: top;
+    color: #e5304b;
+    border-bottom: 1px solid #eee;
+}
+
+.studio-details td {
+    padding: 15px 10px;
+    vertical-align: top;
+    color: #555;
+    border-bottom: 1px solid #eee;
+}
+
+.studio-details tr:last-child th,
+.studio-details tr:last-child td {
+    border-bottom: none;
+}
+
+.access-map {
+    flex: 1;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+iframe {
+    display: block;
 }
 
 /* Contact Section Styles */
-.contact {
+/* .contact {
     background-color: var(--light-bg);
     text-align: center;
     position: relative;
@@ -841,6 +898,83 @@ header {
 .contact-method h4 {
     margin-bottom: 10px;
     color: var(--accent-red);
+} */
+/* お問い合わせCTA */
+.contact-cta-section {
+    background: url('../images/cta-bg.jpg') center/cover;
+    position: relative;
+}
+
+.contact-cta-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(245, 162, 177, 0.8);
+    z-index: 1;
+}
+
+.contact-cta-box {
+    position: relative;
+    z-index: 2;
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cta-title {
+    color: #e5304b;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cta-text {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media (max-width: 576px) {
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.cta-btn, .phone-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    min-width: 200px;
+}
+
+.cta-btn {
+    background: #e5304b;
+    color: white;
+}
+
+.phone-btn {
+    background: #f5a2b1;
+    color: white;
+}
+
+.cta-btn:hover, .phone-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer Styles */

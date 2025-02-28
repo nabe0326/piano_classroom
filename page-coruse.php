@@ -8,15 +8,7 @@ get_header();
 
 <main class="site-main">
     <!-- ページヘッダー -->
-    <section class="page-header">
-        <div class="container">
-            <h1 class="page-title">レッスンコース内容/料金</h1>
-            <div class="breadcrumbs">
-                <a href="<?php echo home_url(); ?>">ホーム</a> &gt; レッスンコース内容/料金
-            </div>
-        </div>
-    </section>
-
+    <?php get_template_part('template-parts/page-header'); ?>
     <!-- イントロダクション -->
     <section class="section course-intro">
         <div class="container">
@@ -367,38 +359,7 @@ get_header();
     </section>
     
     <!-- お問い合わせ/申し込み -->
-    <section class="section contact" id="contact">
-        <div class="container">
-            <h2 class="section-title">お問い合わせ・体験レッスン申し込み</h2>
-            
-            <div class="contact-intro">
-                <p>レッスンに関するお問い合わせや体験レッスンのお申し込みは、下記フォームまたはお電話にて受け付けております。お気軽にご連絡ください。</p>
-            </div>
-            
-            <div class="contact-methods">
-                <div class="contact-form">
-                    <h3>お問い合わせフォーム</h3>
-                    <!-- Contact Form 7などのショートコードを挿入 -->
-                    <?php echo do_shortcode('[contact-form-7 id="123" title="コース問い合わせ"]'); ?>
-                </div>
-                
-                <div class="contact-info">
-                    <h3>お電話での問い合わせ</h3>
-                    <div class="phone-number">080-2402-9157</div>
-                    <p class="phone-hours">受付時間: 平日10:00～18:00</p>
-                    
-                    <h3>教室情報</h3>
-                    <div class="address">
-                        <p>〒123-4567<br>丹波篠山市山内町64</p>
-                    </div>
-                    <div class="access-info">
-                        <p>レッスン日：火・水・木・金・土曜日<br>（日・月曜日、祝日はお休み）</p>
-                        <p>レッスン時間：10:00〜19:00</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php get_template_part('template-parts/contact-parts'); ?>
 </main>
 
 <?php get_footer(); ?>
