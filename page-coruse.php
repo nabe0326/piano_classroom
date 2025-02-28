@@ -51,7 +51,7 @@ get_header();
                 </div>
                 <div class="course-body">
                     <div class="course-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/course-1.jpg" alt="ピアノ個人レッスン">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/privateLessons.webp" alt="ピアノ個人レッスン">
                     </div>
                     <div class="course-info">
                         <div class="course-overview">
@@ -94,7 +94,7 @@ get_header();
                 </div>
                 <div class="course-body">
                     <div class="course-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/course-2.jpg" alt="幼児コース">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/infantLessons.webp" alt="幼児コース">
                     </div>
                     <div class="course-info">
                         <div class="course-overview">
@@ -137,7 +137,7 @@ get_header();
                 </div>
                 <div class="course-body">
                     <div class="course-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/course-3.jpg" alt="YAMAHAコース">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yamahaLessons.webp" alt="YAMAHAコース">
                     </div>
                     <div class="course-info">
                         <div class="course-overview">
