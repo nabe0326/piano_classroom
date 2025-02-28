@@ -8,9 +8,10 @@
     color: white;
     position: relative;
     overflow: hidden;
-    padding: 60px 0 40px;
+    padding: 60px 0;
     text-align: center;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 8vh;
 }
 
 /* 装飾的な要素 */
@@ -113,9 +114,6 @@
 }
 
 /* イントロダクション */
-.course-intro {
-    padding: 60px 0;
-}
 
 .intro-content {
     text-align: center;
@@ -184,7 +182,6 @@
 
 /* メインコース一覧 */
 .main-courses {
-    padding: 60px 0;
     background-color: #fff9fa;
 }
 
@@ -309,6 +306,7 @@
     margin-bottom: 10px;
     position: relative;
     padding-left: 25px;
+    list-style-type:none;
 }
 
 .course-features li:before {
@@ -344,9 +342,6 @@
 }
 
 /* 専門コース一覧 */
-.special-courses {
-    padding: 60px 0;
-}
 
 .special-courses-grid {
     display: grid;
@@ -431,7 +426,6 @@
 
 /* レッスン料金表 */
 .price-table {
-    padding: 60px 0;
     background-color: #fff9fa;
 }
 
@@ -500,9 +494,6 @@
 }
 
 /* FAQ */
-.faq {
-    padding: 60px 0;
-}
 
 .faq-list {
     max-width: 900px;
@@ -582,7 +573,7 @@
 
 /* お問い合わせ・申し込み */
 .contact {
-    padding: 60px 0;
+    
     background-color: #fff9fa;
 }
 

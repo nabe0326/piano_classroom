@@ -27,11 +27,11 @@
             } else {
                 // デフォルトメニュー
                 echo '<ul class="nav-menu">';
-                echo '<li><a href="#about">教室紹介</a></li>';
-                echo '<li><a href="#courses">レッスンコース</a></li>';
-                echo '<li><a href="#teacher">講師紹介</a></li>';
-                echo '<li><a href="#access">アクセス</a></li>';
-                echo '<li><a href="#contact">お問い合わせ</a></li>';
+                echo '<li><a href="/#about">教室紹介</a></li>';
+                echo '<li><a href="/#courses">レッスンコース</a></li>';
+                echo '<li><a href="/#teacher-home">講師紹介</a></li>';
+                echo '<li><a href="/#access-parts">アクセス</a></li>';
+                echo '<li><a href="/#contact-parts">お問い合わせ</a></li>';
                 echo '</ul>';
             }
             ?>

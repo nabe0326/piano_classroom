@@ -1,4 +1,4 @@
-<section class="section studio-info-section" id="studio-info">
+<section class="section studio-info-section" id="access-parts">
     <div class="container">
         <h2 class="section-title">アクセス</h2>
 

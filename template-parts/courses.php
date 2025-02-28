@@ -4,7 +4,6 @@
         <h2 class="section-title">レッスンコース</h2>
         
         <div class="enrollment-banner">
-            <h3>生徒募集中</h3>
             <p>ピアノ専科では、子どもの「できた！」を大切にする指導を行っています</p>
         </div>
 

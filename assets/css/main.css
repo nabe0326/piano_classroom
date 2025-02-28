@@ -8,7 +8,6 @@
     --light-bg: #fff9fa;
     --white: #ffffff;
     --shadow: 0 4px 6px rgba(0,0,0,0.05);
-    --border-radius: 12px;
 }
 
 * {
@@ -67,7 +66,7 @@ img {
 }
 
 .section {
-    padding: 60px 0;
+    padding: 80px 0 40px;
 }
 
 .section-title {
@@ -108,13 +107,14 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
+    height: 8vh;
 }
 
 .header-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 0;
+    line-height: 8vh;
 }
 
 .logo {
@@ -157,6 +157,7 @@ header {
     min-height: 70vh;
     display: flex;
     align-items: center;
+    margin-top: 8vh;
 }
 
 .hero-overlay {
@@ -552,7 +553,6 @@ header {
 /* トップページ講師紹介セクションのスタイル */
 
 .teacher-home {
-    padding: 70px 0;
     background-color: var(--white);
 }
 
