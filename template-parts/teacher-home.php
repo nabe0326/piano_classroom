@@ -10,7 +10,7 @@
         
         <div class="teacher-home-content">
             <div class="teacher-home-image">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/teacher-main.jpg" alt="中村真子先生">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teacherMain.webp" alt="中村真子先生">
                 <div class="teacher-home-info">
                     <h3 class="teacher-home-name">中村 真子<span class="teacher-position">主任講師</span></h3>
                 </div>
