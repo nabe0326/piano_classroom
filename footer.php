@@ -13,28 +13,23 @@
             <div class="footer-nav">
                 <h4>教室案内</h4>
                 <ul class="footer-links">
-                    <li><a href="#about">教室紹介</a></li>
-                    <li><a href="#teacher">講師紹介</a></li>
-                    <li><a href="#access">アクセス</a></li>
-                    <li><a href="#">よくある質問</a></li>
+                    <li><a href="/#about">教室紹介</a></li>
+                    <li><a href="/#teacher-home">講師紹介</a></li>
+                    <li><a href="/#access-parts">アクセス</a></li>
+                    <li><a href="<?php echo home_url('/course/#faq'); ?>">よくある質問</a></li>
                 </ul>
             </div>
             <div class="footer-nav">
                 <h4>レッスン</h4>
                 <ul class="footer-links">
-                    <li><a href="#courses">レッスンコース</a></li>
-                    <li><a href="#">レッスン料金</a></li>
-                    <li><a href="#">発表会情報</a></li>
-                    <li><a href="#">生徒の声</a></li>
+                    <li><a href="<?php echo home_url('/course'); ?>">レッスンコース</a></li>
+                    <li><a href="<?php echo home_url('/course/#price'); ?>">レッスン料金</a></li>
                 </ul>
             </div>
             <div class="footer-nav">
                 <h4>お役立ち情報</h4>
                 <ul class="footer-links">
                     <li><a href="#">ブログ・お知らせ</a></li>
-                    <li><a href="#">ピアノ練習法</a></li>
-                    <li><a href="#">楽譜・教材紹介</a></li>
-                    <li><a href="#">コンクール情報</a></li>
                 </ul>
             </div>
         </div>

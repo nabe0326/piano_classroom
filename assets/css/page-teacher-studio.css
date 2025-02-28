@@ -8,9 +8,10 @@
     color: white;
     position: relative;
     overflow: hidden;
-    padding: 60px 0 40px;
+    padding: 60px 0;
     text-align: center;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 8vh;
 }
 
 /* 装飾的な要素 */
@@ -114,9 +115,6 @@
 
 
 /* 共通セクションスタイル */
-.section {
-    padding: 60px 0;
-}
 
 .section-title {
     text-align: center;

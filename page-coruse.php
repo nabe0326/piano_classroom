@@ -25,7 +25,7 @@ get_header();
                     <h3>まずは無料体験レッスンをお試しください</h3>
                     <p>実際のレッスンの雰囲気や教室の様子を体験していただけます</p>
                 </div>
-                <a href="#contact" class="btn trial-btn">体験レッスン申し込み</a>
+                <a href="<?php echo home_url('/contact/'); ?>" class="btn trial-btn">体験レッスン申し込み</a>
             </div>
         </div>
     </section>
@@ -33,7 +33,7 @@ get_header();
     <!-- メインコース一覧 -->
     <section class="section main-courses" id="main-courses">
         <div class="container">
-            <h2 class="section-title">主要レッスンコース</h2>
+            <h2 class="section-title">レッスンコース</h2>
             
             <!-- ピアノ個人コース -->
             <div class="course-detail-card">
@@ -74,7 +74,7 @@ get_header();
                     </div>
                 </div>
                 <div class="course-footer">
-                    <a href="#contact" class="btn course-contact-btn">このコースについて問い合わせる</a>
+                    <a href="<?php echo home_url('/contact/'); ?>" class="btn course-contact-btn">このコースについて問い合わせる</a>
                 </div>
             </div>
             
@@ -118,7 +118,7 @@ get_header();
                     </div>
                 </div>
                 <div class="course-footer">
-                    <a href="#contact" class="btn course-contact-btn">このコースについて問い合わせる</a>
+                    <a href="<?php echo home_url('/contact/'); ?>" class="btn course-contact-btn">このコースについて問い合わせる</a>
                 </div>
             </div>
             
@@ -161,7 +161,7 @@ get_header();
                     </div>
                 </div>
                 <div class="course-footer">
-                    <a href="#contact" class="btn course-contact-btn">このコースについて問い合わせる</a>
+                    <a href="<?php echo home_url('/contact/'); ?>" class="btn course-contact-btn">このコースについて問い合わせる</a>
                 </div>
             </div>
         </div>
@@ -182,7 +182,7 @@ get_header();
                         <p>歌の好きな方、人前で歌えるようになりたい方、ピアノの方、合唱団などで歌われている方も歓迎します。お子さまと二人でも対応可能です。</p>
                     </div>
                     <div class="special-course-teacher">担当：細見麻里子講師</div>
-                    <a href="#contact" class="special-course-link">詳細を問い合わせる →</a>
+                    <a href="<?php echo home_url('/contact/'); ?>" class="special-course-link">詳細を問い合わせる →</a>
                 </div>
                 
                 <!-- ソルフェージュコース -->
@@ -194,7 +194,7 @@ get_header();
                         <p>ソルフェージュは音楽をより深く理解し、読譜力ある演奏を示す大事な力です。小学生初期から表記ある演奏を丁寧に指導していきます。</p>
                     </div>
                     <div class="special-course-teacher">担当：井本裕美講師</div>
-                    <a href="#contact" class="special-course-link">詳細を問い合わせる →</a>
+                    <a href="<?php echo home_url('/contact/'); ?>" class="special-course-link">詳細を問い合わせる →</a>
                 </div>
                 
                 <!-- 受験コース -->
@@ -206,7 +206,7 @@ get_header();
                         <p>コンクールや大学受験に向いており、熱意が求められます。計画的に準備を進め、24年間で全国大会入賞多数の実績があります。</p>
                     </div>
                     <div class="special-course-teacher">担当：出野真子講師</div>
-                    <a href="#contact" class="special-course-link">詳細を問い合わせる →</a>
+                    <a href="<?php echo home_url('/contact/'); ?>" class="special-course-link">詳細を問い合わせる →</a>
                 </div>
             </div>
         </div>

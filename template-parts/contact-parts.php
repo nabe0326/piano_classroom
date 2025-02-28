@@ -1,4 +1,4 @@
-<section class="section contact-cta-section">
+<section class="section contact-cta-section" id = "contact-parts">
     <div class="container">
         <div class="contact-cta-box">
             <h2 class="cta-title">体験レッスンのお申し込み・お問い合わせ</h2>
