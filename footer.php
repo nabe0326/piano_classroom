@@ -2,12 +2,14 @@
     <div class="container">
         <div class="footer-inner">
             <div class="footer-info">
-                <div class="footer-logo"><?php bloginfo('name'); ?></div>
+                <div class="footer-logo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo4.png" alt="logo">
+                </div>
                 <p>〒123-4567<br>丹波篠山市山内町64<br>TEL: 080-2402-9157</p>
                 <div class="footer-social">
-                    <a href="#" aria-label="Twitter">T</a>
-                    <a href="#" aria-label="Facebook">F</a>
-                    <a href="#" aria-label="Instagram">I</a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                 </div>
             </div>
             <div class="footer-nav">
@@ -29,7 +31,7 @@
             <div class="footer-nav">
                 <h4>お役立ち情報</h4>
                 <ul class="footer-links">
-                    <li><a href="#">ブログ・お知らせ</a></li>
+                    <li><a href="/#news-form">ブログ・お知らせ</a></li>
                 </ul>
             </div>
         </div>

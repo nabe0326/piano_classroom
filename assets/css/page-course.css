@@ -11,7 +11,7 @@
     padding: 60px 0;
     text-align: center;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 8vh;
+    margin-top: 10vh;
 }
 
 /* 装飾的な要素 */
@@ -183,6 +183,7 @@
 /* メインコース一覧 */
 .main-courses {
     background-color: #fff9fa;
+    padding-bottom: 95px;
 }
 
 .course-detail-card {
@@ -343,6 +344,10 @@
 
 /* 専門コース一覧 */
 
+.special-courses {
+    padding-bottom: 95px;
+}
+
 .special-courses-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -425,8 +430,10 @@
 }
 
 /* レッスン料金表 */
+
 .price-table {
     background-color: #fff9fa;
+    padding-bottom: 95px;
 }
 
 .price-table-container {
@@ -494,6 +501,10 @@
 }
 
 /* FAQ */
+
+.faq {
+    padding-bottom: 95px;
+}
 
 .faq-list {
     max-width: 900px;

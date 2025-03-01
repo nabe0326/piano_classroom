@@ -11,7 +11,7 @@
     padding: 60px 0;
     text-align: center;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-    margin-top: 8vh;
+    margin-top: 10vh;
 }
 
 /* 装飾的な要素 */
@@ -135,6 +135,12 @@
 }
 
 /* セクション背景色の交互配置 */
+
+.teacher-profile-section,
+.studio-photos-section {
+    padding-bottom: 95px;
+}
+
 .teacher-profile-section,
 .studio-photos-section:nth-child(odd) {
     background-color: #fff;
