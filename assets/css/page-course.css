@@ -180,6 +180,12 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 768px) {
+    .free-trial-banner {
+        display: block;
+    }
+}
+
 /* メインコース一覧 */
 .main-courses {
     background-color: #fff9fa;
@@ -317,6 +323,11 @@
     left: 0;
     font-weight: bold;
 }
+@media (max-width: 768px) {
+    .course-features {
+        padding-left: 0;
+    }
+}
 
 .course-footer {
     padding: 20px 30px;
@@ -334,6 +345,7 @@
     text-decoration: none;
     font-weight: bold;
     transition: all 0.3s ease;
+    margin-top: 0;
 }
 
 .course-contact-btn:hover {

@@ -277,6 +277,13 @@
     height: 45px;
 }
 
+@media (max-width: 768px) {
+    .wpcf7-acceptance {
+        border: none;
+        padding: 0;
+    }
+}
+
 .wpcf7-textarea {
     height: 150px;
     resize: vertical;

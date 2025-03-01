@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Template Name: お知らせ一覧ページ
  * 
@@ -19,10 +20,10 @@ get_header();
                     <?php
                     // 1ページに表示する投稿数
                     $posts_per_page = 10;
-                    
+
                     // 現在のページ番号を取得
                     $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
-                    
+
                     // 投稿クエリのパラメータ
                     $args = array(
                         'post_type'      => 'post',
@@ -31,17 +32,17 @@ get_header();
                         'orderby'        => 'date',
                         'order'          => 'DESC',
                     );
-                    
+
                     // 投稿クエリを実行
                     $news_query = new WP_Query($args);
-                    
+
                     if ($news_query->have_posts()) :
                     ?>
                         <div class="news-archive-list">
-                            <?php 
-                            while ($news_query->have_posts()) : 
+                            <?php
+                            while ($news_query->have_posts()) :
                                 $news_query->the_post();
-                                
+
                                 // 30日以内の投稿に「NEW」ラベルを表示
                                 $post_date = get_the_time('U');
                                 $current_time = current_time('timestamp');
@@ -51,41 +52,43 @@ get_header();
                                 <article class="news-archive-item <?php echo $is_new ? 'is-new' : ''; ?>">
                                     <?php if (has_post_thumbnail()) : ?>
                                         <div class="news-thumbnail">
-                                            <a href="<?php the_permalink(); ?>">
-                                                <?php the_post_thumbnail('medium'); ?>
-                                            </a>
+                                            <?php the_post_thumbnail('medium'); ?>
+                                        </div>
+                                    <?php else : ?>
+                                        <div class="news-thumbnail">
+                                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yamahaLessons.webp" alt="デフォルト画像">
                                         </div>
                                     <?php endif; ?>
-                                    
+
                                     <div class="news-item-content">
                                         <div class="news-meta">
                                             <span class="news-date"><?php echo get_the_date('Y.m.d'); ?></span>
 
                                         </div>
-                                        
+
                                         <h2 class="news-item-title">
                                             <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                                         </h2>
-                                        
+
                                         <div class="news-item-excerpt">
-                                            <?php 
+                                            <?php
                                             if (has_excerpt()) {
                                                 the_excerpt();
                                             } else {
-                                                echo '<p>' .get_the_content(). '</p>';
+                                                echo '<p>' . get_the_content() . '</p>';
                                             }
                                             ?>
                                         </div>
-                                        
+
                                         <!-- <a href="<//?php the_permalink(); ?>" class="news-read-more">続きを読む →</a> -->
                                     </div>
                                 </article>
                             <?php endwhile; ?>
                         </div>
-                        
+
                         <!-- ページネーション -->
                         <div class="news-pagination">
-                            <?php 
+                            <?php
                             echo paginate_links(array(
                                 'base'         => get_pagenum_link(1) . '%_%',
                                 'format'       => 'page/%#%/',
@@ -94,10 +97,10 @@ get_header();
                                 'prev_text'    => '<span class="pagination-arrow">&laquo;</span> 前へ',
                                 'next_text'    => '次へ <span class="pagination-arrow">&raquo;</span>',
                                 'type'         => 'list',
-                            )); 
+                            ));
                             ?>
                         </div>
-                        
+
                         <?php wp_reset_postdata(); ?>
                     <?php else : ?>
                         <div class="news-empty">
@@ -105,7 +108,7 @@ get_header();
                         </div>
                     <?php endif; ?>
                 </div>
-                
+
                 <!-- サイドバー -->
                 <div class="news-archive-sidebar">
                     <div class="sidebar-widget">
@@ -118,14 +121,14 @@ get_header();
                                 'orderby'        => 'date',
                                 'order'          => 'DESC',
                             ));
-                            
+
                             if ($recent_posts->have_posts()) :
                                 while ($recent_posts->have_posts()) : $recent_posts->the_post();
                             ?>
-                                <li>
-                                    <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                                    <span class="recent-post-date"><?php echo get_the_date('Y.m.d'); ?></span>
-                                </li>
+                                    <li>
+                                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                        <span class="recent-post-date"><?php echo get_the_date('Y.m.d'); ?></span>
+                                    </li>
                             <?php
                                 endwhile;
                                 wp_reset_postdata();
@@ -133,7 +136,7 @@ get_header();
                             ?>
                         </ul>
                     </div>
-                
+
                     <!-- レッスン申し込みバナー -->
                     <div class="sidebar-cta">
                         <h3 class="cta-title">体験レッスン受付中</h3>
