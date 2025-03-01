@@ -66,7 +66,7 @@ img {
 }
 
 .section {
-    padding: 80px 0 40px;
+    padding: 95px 0 0px;
 }
 
 .section-title {
@@ -107,14 +107,14 @@ header {
     width: 100%;
     top: 0;
     z-index: 1000;
-    height: 8vh;
+    height: 10vh;
 }
 
 .header-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    line-height: 8vh;
+    line-height: 10vh;
 }
 
 .logo {
@@ -122,6 +122,14 @@ header {
     font-weight: 700;
     color: var(--accent-red);
     text-decoration: none;
+    height: 10vh;
+    width: 200px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .nav-toggle {
@@ -157,7 +165,7 @@ header {
     min-height: 70vh;
     display: flex;
     align-items: center;
-    margin-top: 8vh;
+    margin-top: 10vh;
 }
 
 .hero-overlay {
@@ -560,7 +568,6 @@ header {
     display: flex;
     gap: 50px;
     align-items: center;
-    margin-bottom: 40px;
 }
 
 @media (max-width: 768px) {
@@ -787,6 +794,10 @@ header {
     border-left: 2px solid #eee;
 } */
 
+.studio-info-section {
+    padding-bottom: 95px;
+}
+
 .studio-overview {
     display: flex;
     gap: 40px;
@@ -903,6 +914,7 @@ iframe {
 .contact-cta-section {
     background: url('../images/cta-bg.jpg') center/cover;
     position: relative;
+    padding-bottom: 95px;
 }
 
 .contact-cta-section::before {

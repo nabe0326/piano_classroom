@@ -3,6 +3,7 @@
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -12,7 +13,7 @@
     <div class="container">
         <div class="header-inner">
             <a href="<?php echo esc_url(home_url('/')); ?>" class="logo">
-                <?php bloginfo('name'); ?>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo4.png" alt="logo">
             </a>
             <button class="nav-toggle">≡</button>
             
@@ -31,6 +32,7 @@
                 echo '<li><a href="/#courses">レッスンコース</a></li>';
                 echo '<li><a href="/#teacher-home">講師紹介</a></li>';
                 echo '<li><a href="/#access-parts">アクセス</a></li>';
+                echo '<li><a href="/#news-form">お知らせ</a></li>';
                 echo '<li><a href="/#contact-parts">お問い合わせ</a></li>';
                 echo '</ul>';
             }
