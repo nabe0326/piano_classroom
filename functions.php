@@ -66,6 +66,13 @@ function piano_school_enqueue_contact_assets() {
 }
 add_action('wp_enqueue_scripts', 'piano_school_enqueue_contact_assets');
 
+function piano_school_enqueue_archive_assets() {
+    if (is_page_template('page-news.php') || is_page('news')) {
+        wp_enqueue_style('piano-school-archive', get_template_directory_uri() . '/assets/css/page-news-archive.css');
+    }
+}
+add_action('wp_enqueue_scripts', 'piano_school_enqueue_archive_assets');
+
 // カスタム投稿タイプ: コース
 function piano_school_register_post_types() {
     register_post_type('course', array(

@@ -1,0 +1,493 @@
+/* お知らせ一覧ページのスタイル */
+
+/* ページヘッダー */
+.page-header {
+    background: linear-gradient(135deg, rgba(245, 162, 177, 0.9), rgba(229, 48, 75, 0.8)), url('../images/piano_lesson.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 8vh;
+}
+
+/* 装飾的な要素 */
+.page-header::before {
+    content: '';
+    position: absolute;
+    top: -10%;
+    right: -5%;
+    width: 200px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.page-header::after {
+    content: '';
+    position: absolute;
+    bottom: -30px;
+    left: 10%;
+    width: 150px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* ヘッダーコンテンツ */
+.page-header-content {
+    position: relative;
+    z-index: 2;
+}
+
+.page-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    position: relative;
+    display: inline-block;
+}
+
+.page-title::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 25%;
+    width: 50%;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+}
+
+/* 音符の装飾 */
+.header-notes {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.3);
+    z-index: 1;
+}
+
+.header-note-1 {
+    top: 20px;
+    left: 10%;
+    font-size: 24px;
+    animation: float-note 8s ease-in-out infinite;
+}
+
+.header-note-2 {
+    bottom: 30px;
+    right: 15%;
+    font-size: 28px;
+    animation: float-note 10s ease-in-out infinite 1s;
+}
+
+@keyframes float-note {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-15px) rotate(10deg);
+    }
+}
+
+/* レスポンシブ調整 */
+@media (max-width: 768px) {
+    .page-header {
+        padding: 50px 0 30px;
+    }
+    
+    .page-title {
+        font-size: 28px;
+    }
+    
+    .page-header::before,
+    .page-header::after {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+/* ニュースアーカイブセクション */
+.news-archive {
+    padding: 60px 0;
+    background-color: var(--white);
+}
+
+.news-archive-container {
+    display: flex;
+    gap: 40px;
+}
+
+@media (max-width: 992px) {
+    .news-archive-container {
+        flex-direction: column;
+    }
+}
+
+.news-archive-main {
+    flex: 1;
+    min-width: 0; /* Flexboxのバグ対策 */
+}
+
+/* お知らせ一覧 */
+.news-archive-list {
+    margin-bottom: 40px;
+}
+
+.news-archive-item {
+    display: flex;
+    margin-bottom: 30px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.news-archive-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.news-thumbnail {
+    width: 150px;
+    min-width: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.news-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.news-archive-item:hover .news-thumbnail img {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .news-archive-item {
+        flex-direction: column;
+    }
+    
+    .news-thumbnail {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+.news-item-content {
+    flex: 1;
+    padding: 25px 30px;
+    min-width: 0; /* Flexboxのバグ対策 */
+}
+
+.news-meta {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.news-date {
+    color: #777;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.news-category {
+    display: inline-block;
+    background: var(--primary-color);
+    padding: 3px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.news-category a {
+    color: white;
+    text-decoration: none;
+}
+
+.news-item-title {
+    margin: 0 0 15px;
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+.news-item-title a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.news-item-title a:hover {
+    color: var(--accent-red);
+}
+
+.news-archive-item.is-new .news-item-title::after {
+    content: 'NEW';
+    display: inline-block;
+    background: var(--accent-red);
+    color: white;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    margin-left: 10px;
+    vertical-align: middle;
+    font-weight: 600;
+}
+
+.news-item-excerpt {
+    color: #666;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.news-item-excerpt p {
+    margin: 0;
+}
+
+.news-read-more {
+    display: inline-block;
+    color: var(--accent-red);
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.news-read-more:hover {
+    color: var(--primary-color);
+    transform: translateX(5px);
+}
+
+/* ページネーション */
+.news-pagination {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.news-pagination .page-numbers {
+    display: inline-flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 8px;
+}
+
+.news-pagination .page-numbers li {
+    display: inline-block;
+}
+
+.news-pagination .page-numbers a,
+.news-pagination .page-numbers span {
+    display: inline-block;
+    min-width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background: white;
+    color: #555;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
+
+.news-pagination .page-numbers a:hover {
+    background: var(--light-bg);
+    color: var(--accent-red);
+}
+
+.news-pagination .page-numbers .current {
+    background: var(--accent-red);
+    color: white;
+}
+
+.news-pagination .pagination-arrow {
+    font-size: 16px;
+}
+
+/* お知らせがない場合 */
+.news-empty {
+    text-align: center;
+    padding: 60px 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    color: #777;
+}
+
+/* サイドバー */
+.news-archive-sidebar {
+    width: 300px;
+    min-width: 300px;
+}
+
+@media (max-width: 992px) {
+    .news-archive-sidebar {
+        width: 100%;
+        min-width: 0;
+    }
+}
+
+.sidebar-widget {
+    background: white;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.widget-title {
+    color: var(--accent-red);
+    font-size: 18px;
+    margin: 0 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--light-bg);
+    position: relative;
+}
+
+.widget-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 60px;
+    height: 2px;
+    background: var(--primary-color);
+}
+
+/* 最近の投稿 */
+.recent-posts {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.recent-posts li {
+    padding: 12px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.recent-posts li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.recent-posts a {
+    color: var(--text-color);
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 5px;
+    transition: color 0.3s ease;
+}
+
+.recent-posts a:hover {
+    color: var(--accent-red);
+}
+
+.recent-post-date {
+    color: #999;
+    font-size: 13px;
+}
+
+/* カテゴリーリスト */
+.category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.category-list li {
+    margin-bottom: 12px;
+}
+
+.category-list a {
+    color: var(--text-color);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.category-list a:hover {
+    color: var(--accent-red);
+}
+
+.category-count {
+    color: #999;
+    font-size: 13px;
+}
+
+/* アーカイブリスト */
+.archive-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.archive-list li {
+    margin-bottom: 12px;
+}
+
+.archive-list a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.archive-list a:hover {
+    color: var(--accent-red);
+}
+
+/* レッスン申し込みCTA */
+.sidebar-cta {
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-red));
+    color: white;
+    border-radius: 15px;
+    padding: 30px 25px;
+    text-align: center;
+    box-shadow: 0 5px 20px rgba(229, 48, 75, 0.2);
+}
+
+.cta-title {
+    font-size: 20px;
+    margin: 0 0 15px;
+}
+
+.cta-text {
+    margin-bottom: 20px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.cta-btn {
+    display: inline-block;
+    background: white;
+    color: var(--accent-red);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
