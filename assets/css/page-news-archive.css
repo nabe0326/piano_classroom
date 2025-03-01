@@ -156,8 +156,8 @@
 }
 
 .news-thumbnail {
-    width: 150px;
-    min-width: 150px;
+    width: 300px;
+    min-width: 300px;
     overflow: hidden;
     position: relative;
 }

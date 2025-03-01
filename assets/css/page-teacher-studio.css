@@ -88,9 +88,12 @@
 }
 
 @keyframes float-note {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: translateY(0) rotate(0deg);
     }
+
     50% {
         transform: translateY(-15px) rotate(10deg);
     }
@@ -101,11 +104,11 @@
     .page-header {
         padding: 50px 0 30px;
     }
-    
+
     .page-title {
         font-size: 28px;
     }
-    
+
     .page-header::before,
     .page-header::after {
         width: 120px;
@@ -149,7 +152,7 @@
 
 .studio-photos-section:nth-child(even) {
     background-color: #fff9fa;
-} 
+}
 
 /* メイン講師プロフィール */
 .main-teacher-profile {
@@ -173,7 +176,7 @@
     .teacher-photo {
         width: 100%;
         max-width: 300px;
-        margin: 0 auto 30px;
+        margin: 0 auto 0px;
     }
 }
 
@@ -193,6 +196,15 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 80%;
+}
+
+@media (max-width: 768px) {
+    .teacher-name-plate {
+        position: initial;
+        transform: translateX(0);
+        width: 80%;
+        margin: 20px auto 0 auto;
+    }
 }
 
 .teacher-name {
@@ -396,7 +408,7 @@ iframe {
 }
 
 .studio-info-section {
-    padding: 0 ;
+    padding: 0;
     margin-bottom: 95px;
 }
 
@@ -497,7 +509,8 @@ iframe {
     }
 }
 
-.cta-btn, .phone-btn {
+.cta-btn,
+.phone-btn {
     display: inline-block;
     padding: 12px 30px;
     border-radius: 30px;
@@ -517,7 +530,8 @@ iframe {
     color: white;
 }
 
-.cta-btn:hover, .phone-btn:hover {
+.cta-btn:hover,
+.phone-btn:hover {
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }

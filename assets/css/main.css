@@ -923,9 +923,6 @@ iframe {
 .news-list {
     margin-bottom: 40px;
 }
-.news-home {
-    /* padding-bottom: 95px; */
-}
 .news-item {
     display: flex;
     margin-bottom: 30px;
@@ -1339,22 +1336,23 @@ footer {
         padding: 120px 0 60px;
     }
     
-    .header-inner {
+    /* .header-inner {
         padding: 15px;
-    }
+    } */
     
     .nav-toggle {
         display: block;
         background: none;
         border: none;
-        font-size: 1.5rem;
         color: var(--text-color);
         cursor: pointer;
+        display: flex;
+        align-items: center;
     }
     
     .nav-menu {
         position: fixed;
-        top: 70px;
+        top: 10vh;
         left: 0;
         width: 100%;
         flex-direction: column;
