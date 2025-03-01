@@ -164,16 +164,135 @@ get_header();
                     <a href="<?php echo home_url('/contact/'); ?>" class="btn course-contact-btn">このコースについて問い合わせる</a>
                 </div>
             </div>
+            <div class="course-detail-card">
+                <div class="course-header">
+                    <h3 class="course-name">ボイストレーニングコース</h3>
+                </div>
+                <div class="course-body">
+                    <div class="course-image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yamahaLessons.webp" alt="YAMAHAコース">
+                    </div>
+                    <div class="course-info">
+                        <div class="course-overview">
+                            <div class="info-group">
+                                <h4 class="info-title">料金</h4>
+                                <p class="info-content primary-text">⽉2回/30分4,000円∼</p>
+                                <p class="info-note">※テキスト代別途</p>
+                            </div>
+                            <div class="info-group">
+                                <h4 class="info-title">対象</h4>
+                                <p class="info-content">全員</p>
+                            </div>
+                            <div class="info-group">
+                                <h4 class="info-title">担当講師</h4>
+                                <p class="info-content">細⾒⿇⾥⼦講師</p>
+                            </div>
+                        </div>
+                        <div class="course-description">
+                            <h4 class="desc-title">コース内容</h4>
+                            <p>歌の好きな⽅、⼈前で歌えるようになりたい⽅、シニアの⽅、合唱団員さん募集中。歌いたい楽譜をお持ち下さい。お友達とお⼆⼈でもお気軽にお問い合わせ下さい。当コースから2023年歌⼿デビュー</p>
+                            <ul class="course-features">
+                                <li>YAMAHA公式教材を使用したレッスン</li>
+                                <li>作曲やアレンジの楽しさを体験</li>
+                                <li>グレード試験対策も万全</li>
+                                <li>仲間と一緒に学ぶ楽しさも体験</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-footer">
+                    <a href="<?php echo home_url('/contact/'); ?>" class="btn course-contact-btn">このコースについて問い合わせる</a>
+                </div>
+            </div>
+            <div class="course-detail-card">
+                <div class="course-header">
+                    <h3 class="course-name">ソルフェージュコース</h3>
+                </div>
+                <div class="course-body">
+                    <div class="course-image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yamahaLessons.webp" alt="YAMAHAコース">
+                    </div>
+                    <div class="course-info">
+                        <div class="course-overview">
+                            <div class="info-group">
+                                <h4 class="info-title">料金</h4>
+                                <p class="info-content primary-text">1回/30分2,000円∼</p>
+                                <p class="info-note">※テキスト代別途</p>
+                            </div>
+                            <div class="info-group">
+                                <h4 class="info-title">対象</h4>
+                                <p class="info-content">全員</p>
+                            </div>
+                            <div class="info-group">
+                                <h4 class="info-title">担当講師</h4>
+                                <p class="info-content">井本裕美講師</p>
+                            </div>
+                        </div>
+                        <div class="course-description">
+                            <h4 class="desc-title">コース内容</h4>
+                            <p>ソルフェージュは⾳楽をより深く理解し説得⼒ある演奏に不可⽋。⼩学⽣初級ソルフェージュから受験対応レッスンをしています。⾳楽⾼校・⾳楽⼤学へ多数合格しています。</p>
+                            <ul class="course-features">
+                                <li>YAMAHA公式教材を使用したレッスン</li>
+                                <li>作曲やアレンジの楽しさを体験</li>
+                                <li>グレード試験対策も万全</li>
+                                <li>仲間と一緒に学ぶ楽しさも体験</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-footer">
+                    <a href="<?php echo home_url('/contact/'); ?>" class="btn course-contact-btn">このコースについて問い合わせる</a>
+                </div>
+            </div>
+            <div class="course-detail-card">
+                <div class="course-header">
+                    <h3 class="course-name">受験コース</h3>
+                </div>
+                <div class="course-body">
+                    <div class="course-image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yamahaLessons.webp" alt="YAMAHAコース">
+                    </div>
+                    <div class="course-info">
+                        <div class="course-overview">
+                            <div class="info-group">
+                                <h4 class="info-title">料金</h4>
+                                <p class="info-content primary-text">⽉3回/30分9,000円∼</p>
+                                <p class="info-note">※テキスト代別途</p>
+                            </div>
+                            <div class="info-group">
+                                <h4 class="info-title">対象</h4>
+                                <p class="info-content">全員</p>
+                            </div>
+                            <div class="info-group">
+                                <h4 class="info-title">担当講師</h4>
+                                <p class="info-content">出野貴⼦講師</p>
+                            </div>
+                        </div>
+                        <div class="course-description">
+                            <h4 class="desc-title">コース内容</h4>
+                            <p>コンクール・⼤学受験は⾼い緊張感と集中⼒が求められます。その為の⼗分な準備を計画的に進める意志、継続する⼒を養います。24年間、各コンクールに連続出場中。全国⼤会連続出場中</p>
+                            <ul class="course-features">
+                                <li>YAMAHA公式教材を使用したレッスン</li>
+                                <li>作曲やアレンジの楽しさを体験</li>
+                                <li>グレード試験対策も万全</li>
+                                <li>仲間と一緒に学ぶ楽しさも体験</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-footer">
+                    <a href="<?php echo home_url('/contact/'); ?>" class="btn course-contact-btn">このコースについて問い合わせる</a>
+                </div>
+            </div>
         </div>
     </section>
     
     <!-- 専門コース一覧 -->
-    <section class="section special-courses" id="special-courses">
+    <!-- <section class="section special-courses" id="special-courses">
         <div class="container">
             <h2 class="section-title">専門コース</h2>
             
             <div class="special-courses-grid">
-                <!-- ボイストレーニングコース -->
                 <div class="special-course-card">
                     <div class="course-icon">🎤</div>
                     <h3 class="special-course-name">ボイストレーニングコース</h3>
@@ -185,7 +304,6 @@ get_header();
                     <a href="<?php echo home_url('/contact/'); ?>" class="special-course-link">詳細を問い合わせる →</a>
                 </div>
                 
-                <!-- ソルフェージュコース -->
                 <div class="special-course-card">
                     <div class="course-icon">🎼</div>
                     <h3 class="special-course-name">ソルフェージュコース</h3>
@@ -197,7 +315,6 @@ get_header();
                     <a href="<?php echo home_url('/contact/'); ?>" class="special-course-link">詳細を問い合わせる →</a>
                 </div>
                 
-                <!-- 受験コース -->
                 <div class="special-course-card">
                     <div class="course-icon">🏆</div>
                     <h3 class="special-course-name">受験コース</h3>
@@ -210,7 +327,7 @@ get_header();
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     
     <!-- レッスン料金表 -->
     <section class="section price-table" id="price">

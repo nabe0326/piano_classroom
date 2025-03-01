@@ -60,18 +60,7 @@ get_header();
                                     <div class="news-item-content">
                                         <div class="news-meta">
                                             <span class="news-date"><?php echo get_the_date('Y.m.d'); ?></span>
-                                            <?php
-                                            // カテゴリーがあれば表示
-                                            $categories = get_the_category();
-                                            if (!empty($categories)) :
-                                                $first_category = $categories[0];
-                                            ?>
-                                                <span class="news-category">
-                                                    <a href="<?php echo get_category_link($first_category->term_id); ?>">
-                                                        <?php echo $first_category->name; ?>
-                                                    </a>
-                                                </span>
-                                            <?php endif; ?>
+
                                         </div>
                                         
                                         <h2 class="news-item-title">

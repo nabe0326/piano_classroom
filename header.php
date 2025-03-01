@@ -32,7 +32,7 @@
                 echo '<li><a href="/#courses">レッスンコース</a></li>';
                 echo '<li><a href="/#teacher-home">講師紹介</a></li>';
                 echo '<li><a href="/#access-parts">アクセス</a></li>';
-                echo '<li><a href="/#news-form">お知らせ</a></li>';
+                echo '<li><a href="/#news-home">お知らせ</a></li>';
                 echo '<li><a href="/#contact-parts">お問い合わせ</a></li>';
                 echo '</ul>';
             }
