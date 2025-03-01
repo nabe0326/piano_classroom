@@ -15,7 +15,7 @@
         <div class="container">
             <div class="header-inner">
                 <a href="<?php echo esc_url(home_url('/')); ?>" class="logo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo4.png" alt="logo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="logo">
                 </a>
                 <!-- <button class="nav-toggle">≡</button> -->
                 <button class="nav-toggle">

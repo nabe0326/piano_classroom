@@ -3,7 +3,7 @@
         <div class="footer-inner">
             <div class="footer-info">
                 <div class="footer-logo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo4.png" alt="logo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="logo">
                 </div>
                 <p>〒123-4567<br>丹波篠山市山内町64<br>TEL: 080-2402-9157</p>
                 <!-- <div class="footer-social">
