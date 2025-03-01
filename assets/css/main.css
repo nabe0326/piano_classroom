@@ -794,14 +794,10 @@ header {
     border-left: 2px solid #eee;
 } */
 
-.studio-info-section {
-    padding-bottom: 95px;
-}
-
 .studio-overview {
     display: flex;
     gap: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 95px;
 }
 
 @media (max-width: 768px) {
@@ -914,7 +910,7 @@ iframe {
 /* トップページお知らせセクションのスタイル (改善版) */
 
 .news-home {
-    padding: 70px 0;
+    /* padding: 70px 0; */
     background-color: var(--white);
 }
 
@@ -927,7 +923,9 @@ iframe {
 .news-list {
     margin-bottom: 40px;
 }
-
+.news-home {
+    /* padding-bottom: 95px; */
+}
 .news-item {
     display: flex;
     margin-bottom: 30px;
@@ -944,15 +942,10 @@ iframe {
 }
 
 /* 日付スタイルの改善 */
-.news-date {
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    border-left: 4px solid var(--accent-red);
-    font-weight: 600;
-    color: #777;
-    min-width: 140px;
-    text-align: center;
+.news_date {
+    text-align: right;
+    color: #c0bdbd;
+    font-size: 14px;
 }
 
 .news-date-text {

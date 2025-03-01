@@ -10,6 +10,9 @@ get_header(); ?>
     <?php
     // ヒーローセクション
     get_template_part('template-parts/hero');
+
+    // ニュースセクション
+    get_template_part('template-parts/news-home');
     
     // 教室紹介セクション
     get_template_part('template-parts/about');
@@ -23,9 +26,6 @@ get_header(); ?>
     // アクセスセクション
     get_template_part('template-parts/access-parts');
 
-    // ニュースセクション
-    get_template_part('template-parts/news-home');
-    
     // お問い合わせセクション
     get_template_part('template-parts/contact-parts');
     ?>

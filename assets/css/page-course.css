@@ -434,6 +434,7 @@
 .price-table {
     background-color: #fff9fa;
     padding-bottom: 95px;
+    padding-top: 0;
 }
 
 .price-table-container {
