@@ -72,18 +72,3 @@ function piano_school_enqueue_archive_assets() {
     }
 }
 add_action('wp_enqueue_scripts', 'piano_school_enqueue_archive_assets');
-
-// カスタム投稿タイプ: コース
-function piano_school_register_post_types() {
-    register_post_type('course', array(
-        'labels' => array(
-            'name' => 'コース',
-            'singular_name' => 'コース',
-        ),
-        'public' => true,
-        'has_archive' => true,
-        'menu_icon' => 'dashicons-welcome-learn-more',
-        'supports' => array('title', 'editor', 'thumbnail', 'excerpt'),
-    ));
-}
-add_action('init', 'piano_school_register_post_types');
