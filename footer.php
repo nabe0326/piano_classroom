@@ -15,10 +15,9 @@
             <div class="footer-nav">
                 <h4>教室案内</h4>
                 <ul class="footer-links">
-                    <li><a href="' . home_url('/#about') . '">教室紹介</a></li>
-                    <li><a href="' . home_url('/#teacher-home') . '">講師紹介</a></li>
-                    <li><a href="' . home_url('/#access-parts') . '">アクセス</a></li>
-                    <li><a href="<?php echo home_url('/course/#faq'); ?>">よくある質問</a></li>
+                    <li><a href="<?php echo home_url('/#about'); ?>">教室紹介</a></li>
+                    <li><a href="<?php echo home_url('/#teacher-home'); ?>">講師紹介</a></li>
+                    <li><a href="<?php echo home_url('/#access-parts'); ?>">アクセス</a></li>
                 </ul>
             </div>
             <div class="footer-nav">
@@ -31,7 +30,7 @@
             <div class="footer-nav">
                 <h4>お役立ち情報</h4>
                 <ul class="footer-links">
-                    <li><a href="/#news-home">ブログ・お知らせ</a></li>
+                    <li><a href="<?php echo home_url('/#news-home'); ?>">ブログ・お知らせ</a></li>
                 </ul>
             </div>
         </div>
