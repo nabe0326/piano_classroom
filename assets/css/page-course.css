@@ -2,7 +2,7 @@
 
 /* ページヘッダー */
 .page-header {
-    background: linear-gradient(135deg, rgba(245, 162, 177, 0.9), rgba(229, 48, 75, 0.8)), url('../images/piano_lesson.jpg');
+    background: linear-gradient(135deg, rgba(244, 197, 205, 0.9), rgba(236, 101, 121, 0.8)), url('../images/piano_bck.jpg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -353,6 +353,106 @@
     transform: translateY(-3px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
+.price-section {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+}
+
+.price-title {
+    color: #e5304b;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.price-table {
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 15px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.price-row {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f0f0f0;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.price-row:hover {
+    background-color: #fff9fa;
+}
+
+.price-row:last-child {
+    border-bottom: none;
+}
+
+.price-level {
+    flex: 3;
+    padding: 12px 15px;
+    font-size: 15px;
+    color: #333;
+}
+
+.price-time {
+    flex: 1;
+    padding: 12px 10px;
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+    font-weight: 500;
+    background-color: #f9f9f9;
+}
+
+.price-amount {
+    flex: 1.5;
+    padding: 12px 15px;
+    text-align: right;
+    font-weight: bold;
+    color: #e5304b;
+    font-size: 16px;
+}
+
+.price-note {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.course-features-section {
+    margin-top: 25px;
+}
+
+.features-title {
+    color: #e5304b;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .price-row {
+        flex-wrap: wrap;
+    }
+    
+    .price-level {
+        flex: 100%;
+        padding: 10px 15px 5px 15px;
+    }
+    
+    .price-time {
+        flex: 1;
+        padding: 5px 10px 10px 15px;
+        text-align: left;
+        background-color: transparent;
+    }
+    
+    .price-amount {
+        flex: 1;
+        padding: 5px 15px 10px 10px;
+    }
+}
 
 /* 専門コース一覧 */
 
@@ -445,7 +545,6 @@
 
 .price-table {
     background-color: #fff9fa;
-    padding-bottom: 95px;
     padding-top: 0;
 }
 
@@ -585,7 +684,7 @@
 }
 
 .faq-answer {
-    padding: 0 20px 20px;
+    padding:20px;
     display: flex;
     background: white;
 }

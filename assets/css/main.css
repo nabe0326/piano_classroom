@@ -599,7 +599,6 @@ header {
 }
 
 .teacher-more-link {
-    margin-top: 25px;
     text-align: center;
 }
 
@@ -612,6 +611,7 @@ header {
     text-decoration: none;
     font-weight: 600;
     transition: all 0.3s ease;
+    margin: 0;
 }
 
 .teacher-btn:hover {

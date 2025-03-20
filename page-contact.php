@@ -51,48 +51,6 @@ get_header();
                     ?>
                 </div>
             </div>
-
-            <div class="faq-section">
-                <h2 class="section-title">よくあるご質問</h2>
-
-                <div class="faq-items">
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span class="q-mark">Q</span>
-                            <h3>体験レッスンの流れを教えてください</h3>
-                            <span class="toggle-icon">+</span>
-                        </div>
-                        <div class="faq-answer">
-                            <span class="a-mark">A</span>
-                            <p>体験レッスンでは、まず簡単な自己紹介と音楽経験についてお聞きします。その後、ピアノに触れながら基本的なレッスン内容を体験していただきます。最後に教室の説明や質問にお答えする時間を設けています。おおよそ30分ほどの所要時間です。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span class="q-mark">Q</span>
-                            <h3>レッスン料の支払い方法について教えてください</h3>
-                            <span class="toggle-icon">+</span>
-                        </div>
-                        <div class="faq-answer">
-                            <span class="a-mark">A</span>
-                            <p>レッスン料は月謝制で、毎月25日までに翌月分をお支払いいただいております。お支払い方法は銀行振込または教室での現金支払いから選べます。長期休暇をご希望の場合は、事前にご連絡いただければ調整いたします。</p>
-                        </div>
-                    </div>
-
-                    <div class="faq-item">
-                        <div class="faq-question">
-                            <span class="q-mark">Q</span>
-                            <h3>子どもが楽器に触れたことがなくても大丈夫ですか？</h3>
-                            <span class="toggle-icon">+</span>
-                        </div>
-                        <div class="faq-answer">
-                            <span class="a-mark">A</span>
-                            <p>はい、もちろん大丈夫です。当教室では、初めてピアノに触れるお子様でも安心して学べるよう、楽しみながらピアノの基礎から丁寧に指導しています。お子様のペースに合わせたレッスンを心がけていますので、ご安心ください。</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
     </section>
 </main>
