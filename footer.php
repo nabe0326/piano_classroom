@@ -5,7 +5,7 @@
                 <div class="footer-logo">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="logo">
                 </div>
-                <p>〒123-4567<br>丹波篠山市山内町64<br>TEL: 080-2402-9157</p>
+                <p>〒669-2337<br>兵庫県丹波篠山市山内町64<br>TEL: 080-2402-9157</p>
                 <!-- <div class="footer-social">
                     <a href="#" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
                     <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
@@ -16,7 +16,7 @@
                 <h4>教室案内</h4>
                 <ul class="footer-links">
                     <li><a href="<?php echo home_url('/#about'); ?>">教室紹介</a></li>
-                    <li><a href="<?php echo home_url('/#teacher-home'); ?>">講師紹介</a></li>
+                    <li><a href="<?php echo home_url('/#teacher-home'); ?>">講師・教室紹介</a></li>
                     <li><a href="<?php echo home_url('/#access-parts'); ?>">アクセス</a></li>
                 </ul>
             </div>

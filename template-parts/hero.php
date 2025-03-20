@@ -2,9 +2,8 @@
     <div class="hero-overlay"></div>
     <div class="container">
         <div class="hero-content">
-            <h1 class="hero-title">～ピアノ専科 思い出～</h1>
-            <p class="hero-subtitle">技術だけでなく、子どもの「できた！」という喜びと<br>成長に合わせた自立心を大切にするレッスン</p>
-            <a href="#courses" class="btn">コース案内を見る</a>
+            <h1 class="hero-title">～ ピアノ専科 ～</h1>
+            <p class="hero-subtitle">レッスンを通じて「技術の成長」だけでなく、「心の成長」「礼儀礼節」、人間力を育むことを目指している教室です</p>
         </div>
     </div>
     <div class="musical-notes note-1">♪</div>

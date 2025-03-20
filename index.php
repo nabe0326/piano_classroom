@@ -14,9 +14,6 @@ get_header(); ?>
     // ニュースセクション
     get_template_part('template-parts/news-home');
     
-    // 教室紹介セクション
-    get_template_part('template-parts/about');
-    
     // コースセクション
     get_template_part('template-parts/courses');
     
