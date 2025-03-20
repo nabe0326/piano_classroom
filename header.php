@@ -37,9 +37,8 @@
                 } else {
                     // デフォルトメニュー
                     echo '<ul class="nav-menu">';
-                    echo '<li><a href="' . home_url('/#about') . '">教室紹介</a></li>';
                     echo '<li><a href="' . home_url('/#courses') . '">レッスンコース</a></li>';
-                    echo '<li><a href="' . home_url('/#teacher-home') . '">講師紹介</a></li>';
+                    echo '<li><a href="' . home_url('/#teacher-home') . '">講師・教室紹介</a></li>';
                     echo '<li><a href="' . home_url('/#access-parts') . '">アクセス</a></li>';
                     echo '<li><a href="' . home_url('/#news-home') . '">お知らせ</a></li>';
                     echo '<li><a href="' . home_url('/#contact-parts') . '">お問い合わせ</a></li>';

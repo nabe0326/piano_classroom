@@ -167,80 +167,11 @@
     }
 }
 
-.teacher-photo {
-    width: 35%;
-    position: relative;
-}
-
-@media (max-width: 768px) {
-    .teacher-photo {
-        width: 100%;
-        max-width: 300px;
-        margin: 0 auto 0px;
-    }
-}
-
-.teacher-photo img {
-    width: 100%;
-    border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-}
-
-.teacher-name-plate {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    background: white;
-    padding: 15px 30px;
-    border-radius: 30px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 80%;
-}
-
-@media (max-width: 768px) {
-    .teacher-name-plate {
-        position: initial;
-        transform: translateX(0);
-        width: 80%;
-        margin: 20px auto 0 auto;
-    }
-}
-
-.teacher-name {
-    color: #e5304b;
-    font-size: 22px;
-    margin: 0 0 5px;
-}
-
-.teacher-name-en {
-    color: #999;
-    font-size: 14px;
-    margin: 0;
-}
-
 .teacher-biography {
     flex: 1;
 }
 
-.biography-lead {
-    font-size: 18px;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 20px;
-    line-height: 1.6;
-    padding-left: 15px;
-    border-left: 4px solid #f5a2b1;
-}
-
-.teacher-biography p {
-    margin-bottom: 20px;
-    line-height: 1.7;
-    color: #555;
-}
-
-.teacher-certifications,
-.teacher-message {
+.teacher-certifications {
     margin-top: 30px;
     background: #fff9fa;
     padding: 25px;
@@ -248,8 +179,7 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
-.teacher-certifications h4,
-.teacher-message h4 {
+.teacher-certifications h4 {
     color: #e5304b;
     margin-bottom: 15px;
     font-size: 18px;
@@ -272,11 +202,6 @@
 .teacher-certifications li {
     margin-bottom: 10px;
     color: #555;
-}
-
-.teacher-message p {
-    color: #555;
-    margin: 0;
 }
 
 /* 講師陣紹介 */

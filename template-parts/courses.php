@@ -7,10 +7,10 @@
             <!-- ピアノ個人コース -->
             <div class="course-card">
                 <div class="course-header">
-                    <h3>ピアノ個人コース</h3>
+                    <h3>ピアノ個人コースA</h3>
                 </div>
                 <div class="course-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/privateLessons.webp" alt="ピアノ個人レッスン" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/privateLessonsA.webp" alt="ピアノ個人レッスン" />
                 </div>
                 <div class="course-content">
                     <div class="course-price">年間42回/30分 6,500円～</div>
@@ -22,14 +22,14 @@
             <!-- 幼児2年間コース -->
             <div class="course-card">
                 <div class="course-header">
-                    <h3>幼児2年間コース</h3>
+                    <h3>ピアノ個人コースB</h3>
                 </div>
                 <div class="course-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/infantLessons.webp" alt="幼児コース" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/privateLessonsB.webp" alt="幼児コース" />
                 </div>
                 <div class="course-content">
                     <div class="course-price">月3回/30分 6,000円～</div>
-                    <p class="course-short-desc">お子様の脳の発達を促し、音楽の基礎を楽しく身につけられるコースです。</p>
+                    <p class="course-short-desc">個人コースAと違い担任制で月3回のコースです。</p>
                     <a href="<?php echo site_url('/course'); ?>" class="course-more-link">詳細を見る →</a>
                 </div>
             </div>
@@ -40,11 +40,11 @@
                     <h3>YAMAHAコース</h3>
                 </div>
                 <div class="course-img">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yamahaLessons.webp" alt="YAMAHAコース" />
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/yamaha.webp" alt="YAMAHAコース" />
                 </div>
                 <div class="course-content">
                     <div class="course-price">月3回/30分 6,000円～</div>
-                    <p class="course-short-desc">グループレッスンと個人指導を組み合わせ、YAMAHAグレードに挑戦できます。</p>
+                    <p class="course-short-desc">楽譜なしで音楽を楽しむ力を身につけます。YAMAHAグレード資格も取得できます。</p>
                     <a href="<?php echo site_url('/course'); ?>" class="course-more-link">詳細を見る →</a>
                 </div>
             </div>

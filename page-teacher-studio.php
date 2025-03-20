@@ -13,163 +13,82 @@ get_header();
     <!-- 講師紹介セクション -->
     <section class="section teacher-profile-section" id="teacher-profile">
         <div class="container">
-            <h2 class="section-title">講師紹介</h2>
+            <h2 class="section-title">講師・教室紹介</h2>
 
             <div class="main-teacher-profile">
-                <div class="teacher-photo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teacherMain.webp" alt="中村真子先生">
-                    <div class="teacher-name-plate">
-                        <h3 class="teacher-name">中村 真子</h3>
-                        <p class="teacher-name-en">Mako Nakamura</p>
-                    </div>
-                </div>
-
                 <div class="teacher-biography">
-                    <p class="biography-lead">幼い頃のピアノとの出会いから音楽の喜びを伝え続けています。</p>
-
-                    <p>東京音楽大学ピアノ科卒業。20年以上の指導経験を持ち、幼児から大人まで幅広い年齢層の生徒を指導しています。特に子どもたちの可能性を引き出すレッスンを得意とし、一人ひとりに合わせた指導で多くの生徒の成長をサポートしてきました。</p>
-
-                    <p>ピアノは人生の長い旅路の友です。単なる技術指導ではなく、音楽を通して「感じる心」「表現する喜び」「挑戦する勇気」を育てることを大切にしています。レッスンでは、基礎をしっかり身につけながらも、生徒さん一人ひとりの個性や才能を尊重し、「弾けた！」という喜びと達成感を大切にしています。</p>
-
-                    <p>幼い頃からクラシックに親しんでいた経験を活かし、音楽の楽しさと素晴らしさを次世代に伝えることが私の使命だと考えています。熱意ある指導と温かい雰囲気づくりで、生徒さんが安心して学べる環境を心がけています。</p>
-
                     <div class="teacher-certifications">
+                        <h3 class="teacher-name">出野 貴子</h3>
+                        <p class="teacher-name-en">いでの たかこ</p>
                         <h4>経歴・資格等</h4>
                         <ul>
-                            <li>東京音楽大学ピアノ科卒業、同大学研究科修了</li>
-                            <li>全日本ピアノ指導者協会（ピティナ）会員</li>
-                            <li>○○ピアノコンクール審査員</li>
-                            <li>ヤマハ音楽教室システム講師資格</li>
-                            <li>日本メンタルピアノ教育研究所認定講師</li>
-                            <li>第○回全日本学生音楽コンクールピアノ部門入賞</li>
-                            <li>多数の発表会、コンサート企画・開催</li>
-                            <li>海外音楽研修（ウィーン、パリ）経験あり</li>
-                            <li>TV・ラジオでの演奏経験</li>
+                            <li>県立西宮高校音楽科卒業</li>
+                            <li>大阪音楽大学器楽学科ピアノ専攻卒業</li>
+                            <li>大阪音楽大学音楽学部専攻科修了</li>
+                            <li>中森千鶴、吉田順子、片岡みどり、石井なをみ、梅本俊和、板谷久美路、ヤブオンスキー、ロジェブートリーの各氏に師事</li>
+                            <li>大阪音楽大学推薦演奏会 奨励賞・和歌山音楽コンクール2位（1位なし）</li>
+                            <li>リトルカメリア音楽祭 奨励賞・吹田音楽コンクール デュオ部門3位（1、2位なし）</li>
+                            <li>21世紀ピアノコンクール2位（1位なし）</li>
+                            <li>第20回日本クラシック音楽コンクール全国大会入選</li>
+                            <li>全日本演奏家協会オーディション合格</li>
+                            <li>第20回グレンツェンコンクール指導者賞受賞</li>
+                            <li>ピアラグレード審査員</li>
+                            <li>日本クラシック音楽コンクール審査員</li>
+                            <li>丹波篠山市教育委員、兵庫県女性教育委員代表幹事歴任</li>
+                            <li>現在 ピアノ専科主宰</li>
                         </ul>
-                    </div>
-
-                    <div class="teacher-message">
-                        <h4>生徒・保護者へのメッセージ</h4>
-                        <p>「音楽を楽しむ心」を大切に、それぞれのペースで確実に成長していけるよう、ひとりひとりに合わせたレッスンを心がけています。ピアノを通して、音楽だけでなく、集中力や忍耐力、表現力など、人生の様々な場面で役立つ力を身につけていただければと思います。まずは気軽に体験レッスンにお越しください。皆様とお会いできるのを楽しみにしています。</p>
-                    </div>
-                </div>
-            </div>
-            <div class="main-teacher-profile">
-                <div class="teacher-photo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teacherMain.webp" alt="中村真子先生">
-                    <div class="teacher-name-plate">
-                        <h3 class="teacher-name">中村 真子</h3>
-                        <p class="teacher-name-en">Mako Nakamura</p>
-                    </div>
-                </div>
-
-                <div class="teacher-biography">
-                    <p class="biography-lead">幼い頃のピアノとの出会いから音楽の喜びを伝え続けています。</p>
-
-                    <p>東京音楽大学ピアノ科卒業。20年以上の指導経験を持ち、幼児から大人まで幅広い年齢層の生徒を指導しています。特に子どもたちの可能性を引き出すレッスンを得意とし、一人ひとりに合わせた指導で多くの生徒の成長をサポートしてきました。</p>
-
-                    <p>ピアノは人生の長い旅路の友です。単なる技術指導ではなく、音楽を通して「感じる心」「表現する喜び」「挑戦する勇気」を育てることを大切にしています。レッスンでは、基礎をしっかり身につけながらも、生徒さん一人ひとりの個性や才能を尊重し、「弾けた！」という喜びと達成感を大切にしています。</p>
-
-                    <p>幼い頃からクラシックに親しんでいた経験を活かし、音楽の楽しさと素晴らしさを次世代に伝えることが私の使命だと考えています。熱意ある指導と温かい雰囲気づくりで、生徒さんが安心して学べる環境を心がけています。</p>
-
-                    <div class="teacher-certifications">
-                        <h4>経歴・資格等</h4>
-                        <ul>
-                            <li>東京音楽大学ピアノ科卒業、同大学研究科修了</li>
-                            <li>全日本ピアノ指導者協会（ピティナ）会員</li>
-                            <li>○○ピアノコンクール審査員</li>
-                            <li>ヤマハ音楽教室システム講師資格</li>
-                            <li>日本メンタルピアノ教育研究所認定講師</li>
-                            <li>第○回全日本学生音楽コンクールピアノ部門入賞</li>
-                            <li>多数の発表会、コンサート企画・開催</li>
-                            <li>海外音楽研修（ウィーン、パリ）経験あり</li>
-                            <li>TV・ラジオでの演奏経験</li>
-                        </ul>
-                    </div>
-
-                    <div class="teacher-message">
-                        <h4>生徒・保護者へのメッセージ</h4>
-                        <p>「音楽を楽しむ心」を大切に、それぞれのペースで確実に成長していけるよう、ひとりひとりに合わせたレッスンを心がけています。ピアノを通して、音楽だけでなく、集中力や忍耐力、表現力など、人生の様々な場面で役立つ力を身につけていただければと思います。まずは気軽に体験レッスンにお越しください。皆様とお会いできるのを楽しみにしています。</p>
                     </div>
                 </div>
             </div>
 
             <div class="main-teacher-profile">
-                <div class="teacher-photo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teacherMain.webp" alt="中村真子先生">
-                    <div class="teacher-name-plate">
-                        <h3 class="teacher-name">中村 真子</h3>
-                        <p class="teacher-name-en">Mako Nakamura</p>
-                    </div>
-                </div>
-
                 <div class="teacher-biography">
-                    <p class="biography-lead">幼い頃のピアノとの出会いから音楽の喜びを伝え続けています。</p>
-
-                    <p>東京音楽大学ピアノ科卒業。20年以上の指導経験を持ち、幼児から大人まで幅広い年齢層の生徒を指導しています。特に子どもたちの可能性を引き出すレッスンを得意とし、一人ひとりに合わせた指導で多くの生徒の成長をサポートしてきました。</p>
-
-                    <p>ピアノは人生の長い旅路の友です。単なる技術指導ではなく、音楽を通して「感じる心」「表現する喜び」「挑戦する勇気」を育てることを大切にしています。レッスンでは、基礎をしっかり身につけながらも、生徒さん一人ひとりの個性や才能を尊重し、「弾けた！」という喜びと達成感を大切にしています。</p>
-
-                    <p>幼い頃からクラシックに親しんでいた経験を活かし、音楽の楽しさと素晴らしさを次世代に伝えることが私の使命だと考えています。熱意ある指導と温かい雰囲気づくりで、生徒さんが安心して学べる環境を心がけています。</p>
-
                     <div class="teacher-certifications">
+                        <h3 class="teacher-name">井本 裕美</h3>
+                        <p class="teacher-name-en">いもと ひろみ</p>
                         <h4>経歴・資格等</h4>
                         <ul>
-                            <li>東京音楽大学ピアノ科卒業、同大学研究科修了</li>
-                            <li>全日本ピアノ指導者協会（ピティナ）会員</li>
-                            <li>○○ピアノコンクール審査員</li>
-                            <li>ヤマハ音楽教室システム講師資格</li>
-                            <li>日本メンタルピアノ教育研究所認定講師</li>
-                            <li>第○回全日本学生音楽コンクールピアノ部門入賞</li>
-                            <li>多数の発表会、コンサート企画・開催</li>
-                            <li>海外音楽研修（ウィーン、パリ）経験あり</li>
-                            <li>TV・ラジオでの演奏経験</li>
+                            <li>大阪音楽大学音楽学部器楽学科ピアノ専攻卒業</li>
+                            <li>飛弾裕子、波部香代子、植田定和、故 松浦豊明、板谷久美路の各氏に師事</li>
+                            <li>93～07年、女声合唱団ささゆり常任ピアニスト</li>
+                            <li>02年、ミュンヘン国立音楽大学サマーアカデミーにてヨハネスフィッシャー教授に師事</li>
+                            <li>09年、メロマン室内管弦楽団とモーツアルト「ピアノ協奏曲第23番」を演奏</li>
+                            <li>ソロや伴奏・アンサンブルなど幅広く活動中</li>
+                            <li>現在、女声コーラスあじさい、童謡唱歌グループなどで、伴奏をつとめる</li>
+                            <li>若葉会会員</li>
                         </ul>
-                    </div>
-
-                    <div class="teacher-message">
-                        <h4>生徒・保護者へのメッセージ</h4>
-                        <p>「音楽を楽しむ心」を大切に、それぞれのペースで確実に成長していけるよう、ひとりひとりに合わせたレッスンを心がけています。ピアノを通して、音楽だけでなく、集中力や忍耐力、表現力など、人生の様々な場面で役立つ力を身につけていただければと思います。まずは気軽に体験レッスンにお越しください。皆様とお会いできるのを楽しみにしています。</p>
                     </div>
                 </div>
             </div>
 
             <div class="main-teacher-profile">
-                <div class="teacher-photo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teacherMain.webp" alt="中村真子先生">
-                    <div class="teacher-name-plate">
-                        <h3 class="teacher-name">中村 真子</h3>
-                        <p class="teacher-name-en">Mako Nakamura</p>
-                    </div>
-                </div>
-
                 <div class="teacher-biography">
-                    <p class="biography-lead">幼い頃のピアノとの出会いから音楽の喜びを伝え続けています。</p>
-
-                    <p>東京音楽大学ピアノ科卒業。20年以上の指導経験を持ち、幼児から大人まで幅広い年齢層の生徒を指導しています。特に子どもたちの可能性を引き出すレッスンを得意とし、一人ひとりに合わせた指導で多くの生徒の成長をサポートしてきました。</p>
-
-                    <p>ピアノは人生の長い旅路の友です。単なる技術指導ではなく、音楽を通して「感じる心」「表現する喜び」「挑戦する勇気」を育てることを大切にしています。レッスンでは、基礎をしっかり身につけながらも、生徒さん一人ひとりの個性や才能を尊重し、「弾けた！」という喜びと達成感を大切にしています。</p>
-
-                    <p>幼い頃からクラシックに親しんでいた経験を活かし、音楽の楽しさと素晴らしさを次世代に伝えることが私の使命だと考えています。熱意ある指導と温かい雰囲気づくりで、生徒さんが安心して学べる環境を心がけています。</p>
-
                     <div class="teacher-certifications">
+                        <h3 class="teacher-name">西田 夫佐</h3>
+                        <p class="teacher-name-en">にしだ ふさ</p>
                         <h4>経歴・資格等</h4>
                         <ul>
-                            <li>東京音楽大学ピアノ科卒業、同大学研究科修了</li>
-                            <li>全日本ピアノ指導者協会（ピティナ）会員</li>
-                            <li>○○ピアノコンクール審査員</li>
-                            <li>ヤマハ音楽教室システム講師資格</li>
-                            <li>日本メンタルピアノ教育研究所認定講師</li>
-                            <li>第○回全日本学生音楽コンクールピアノ部門入賞</li>
-                            <li>多数の発表会、コンサート企画・開催</li>
-                            <li>海外音楽研修（ウィーン、パリ）経験あり</li>
-                            <li>TV・ラジオでの演奏経験</li>
+                            <li>神戸大学教育学部(現:発達科学部)中等教育系音楽科 声楽専攻卒業、主にフランス歌曲を学ぶ</li>
+                            <li>ソロでのシンセサイザー弾き語りやエレクトーン演奏、P&Eユニット「TA-FU」、アカペラグループ「Blue Voices」、JAZZバンド「Gentle Jazz Friends」のVocal、和太鼓&シンセサイザーユニット「守破離」、キーボードアンサンブル「ふらうむじーく」、イベントサークル「ピン ポンパン」音楽付き読み聞かせ活動</li>
+                            <li>高齢者大学での歌唱指導、セレモニープレイヤー</li>
+                            <li>たんば広報スタッフとして、或いはフリーでイベントの司会 やナレーションなどの活動</li>
                         </ul>
                     </div>
+                </div>
+            </div>
 
-                    <div class="teacher-message">
-                        <h4>生徒・保護者へのメッセージ</h4>
-                        <p>「音楽を楽しむ心」を大切に、それぞれのペースで確実に成長していけるよう、ひとりひとりに合わせたレッスンを心がけています。ピアノを通して、音楽だけでなく、集中力や忍耐力、表現力など、人生の様々な場面で役立つ力を身につけていただければと思います。まずは気軽に体験レッスンにお越しください。皆様とお会いできるのを楽しみにしています。</p>
+            <div class="main-teacher-profile">
+                <div class="teacher-biography">
+                    <div class="teacher-certifications">
+                        <h3 class="teacher-name">細見 麻里子</h3>
+                        <p class="teacher-name-en">ほそみ まりこ</p>
+                        <h4>経歴・資格等</h4>
+                        <ul>
+                            <li>大阪音楽大学音楽学部声楽学科声楽専攻卒業</li>
+                            <li>在学中で音楽療法サークル「てんとうむし」（障害児）老人施設に勤務しながら、音楽療法の勉強を始め、現在に至る</li>
+                            <li>芸術会館 音楽療法コース受講</li>
+                            <li>ささやま医療センター季節のコンサート・丹波篠山さくらまつり・市民オペラに出演・ 「プレジール」で施設やイベントで演奏活動</li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -233,28 +152,35 @@ get_header();
     <!-- 本校スタジオ紹介 -->
     <section class="section studio-photos-section" id="main-studio">
         <div class="container">
-            <h2 class="section-title">ピアノ専科 スタジオ ドルチェ 本校</h2>
+            <h2 class="section-title">教室紹介</h2>
 
             <div class="studio-description">
-                <p>明るく開放的な空間で、集中してレッスンに取り組めるよう環境を整えています。スタインウェイのグランドピアノでの演奏体験は、生徒の皆様の演奏技術向上と音楽性を育むために欠かせない要素です。保護者の方がお待ちいただける控え室も完備しております。</p>
+                <p>ピアノ専科では、技術面の成長を通じて「達成感」「楽しさ」等、心の成長も大切にする指導体制です。<br>また技術だけでなく「礼儀礼節」を重んじ、人間力を育てます。</p>
+                <p>＜レッスンルールの設備＞</p>
+                <p>第1教室　YAMAHAグランドピアノ2台　エレクトーン2台</p>
+                <p>第2教室　YAMAHAグランドピアノ1台　電子ピアノ1台</p>
+                <p>第3教室　YAMAHAアップライトピアノ1台</p>
+                <p>全教室とも冷暖房完備</p>
             </div>
 
             <div class="studio-gallery">
                 <div class="gallery-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioMain.webp" alt="本校スタジオ外観">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioImage1.webp" alt="第1教室その1">
                 </div>
                 <div class="gallery-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioMain.webp" alt="本校レッスンルーム">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioImage2.webp" alt="第1教室その2">
                 </div>
                 <div class="gallery-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioMain.webp" alt="本校グランドピアノ">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioImage3.webp" alt="第2教室">
                 </div>
                 <div class="gallery-item">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioMain.webp" alt="本校待合室">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioImage4.webp" alt="第3教室">
                 </div>
             </div>
         </div>
     </section>
+
+    <?php get_template_part('template-parts/about'); ?>
 
     <!-- お問い合わせへの導線 -->
     <?php get_template_part('template-parts/contact-parts'); ?>
