@@ -15,7 +15,7 @@
             <div class="footer-nav">
                 <h4>教室案内</h4>
                 <ul class="footer-links">
-                    <li><a href="<?php echo home_url('/#about'); ?>">教室紹介</a></li>
+                    <li><a href="<?php echo home_url('/#teacher-home'); ?>">教室紹介</a></li>
                     <li><a href="<?php echo home_url('/#teacher-home'); ?>">講師・教室紹介</a></li>
                     <li><a href="<?php echo home_url('/#access-parts'); ?>">アクセス</a></li>
                 </ul>

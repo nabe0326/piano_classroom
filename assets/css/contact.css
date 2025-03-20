@@ -1,7 +1,7 @@
 /* お問い合わせページのスタイル */
 /* ページヘッダー */
 .page-header {
-    background: linear-gradient(135deg, rgba(245, 162, 177, 0.9), rgba(229, 48, 75, 0.8)), url('../images/piano_lesson.jpg');
+    background: linear-gradient(135deg, rgba(244, 197, 205, 0.9), rgba(236, 101, 121, 0.8)), url('../images/piano_bck.jpg');
     background-size: cover;
     background-position: center;
     color: white;

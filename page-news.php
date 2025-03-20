@@ -126,7 +126,7 @@ get_header();
                                 while ($recent_posts->have_posts()) : $recent_posts->the_post();
                             ?>
                                     <li>
-                                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                                        <?php the_title(); ?><br>
                                         <span class="recent-post-date"><?php echo get_the_date('Y.m.d'); ?></span>
                                     </li>
                             <?php
