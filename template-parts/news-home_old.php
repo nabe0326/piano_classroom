@@ -6,7 +6,7 @@
 <!-- News Section for Homepage -->
 <section class="section news-home" id="news-home">
     <div class="container">
-        <h2 class="section-title">お知らせ</h2>
+        <h2 class="section-title">トピックス</h2>
         
         <div class="news-home-content">
             <?php
@@ -58,7 +58,7 @@
                 </div>
                 
                 <div class="news-home-button">
-                    <a href="<?php echo site_url('/news'); ?>" class="btn news-btn">お知らせ一覧を見る</a>
+                    <a href="<?php echo site_url('/news'); ?>" class="btn news-btn">トピックス一覧を見る</a>
                 </div>
                 
                 <?php wp_reset_postdata(); ?>

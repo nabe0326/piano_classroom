@@ -13,7 +13,7 @@ get_header();
     <!-- 講師紹介セクション -->
     <section class="section teacher-profile-section" id="teacher-profile">
         <div class="container">
-            <h2 class="section-title">講師・教室紹介</h2>
+            <h2 class="section-title">講師紹介</h2>
 
             <div class="main-teacher-profile">
                 <div class="teacher-biography">
@@ -147,7 +147,6 @@ get_header();
     </section>
 
     <!-- 教室案内セクション -->
-    <?php get_template_part('template-parts/access-parts'); ?>
 
     <!-- 本校スタジオ紹介 -->
     <section class="section studio-photos-section" id="main-studio">

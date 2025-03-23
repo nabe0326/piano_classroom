@@ -174,7 +174,7 @@ header {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(255, 255, 255, 0.3); /* 明るい白系オーバーレイ */
+    background-color: rgba(255, 255, 255, 0.6); /* 明るい白系オーバーレイ */
     z-index: 1;
 }
 
@@ -1042,7 +1042,7 @@ iframe {
 footer {
     background-color: var(--primary-color);
     color: white;
-    padding: 50px 0 20px;
+    padding: 0px 0 20px;
 }
 
 .footer-inner {

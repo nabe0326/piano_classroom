@@ -18,7 +18,7 @@
             </div>
             
             <div class="about-image">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top.webp" alt="ピアノレッスン風景" />
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/studioImage1.webp" alt="ピアノレッスン風景" />
             </div>
         </div>
         
