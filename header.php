@@ -15,7 +15,7 @@
         <div class="container">
             <div class="header-inner">
                 <a href="<?php echo esc_url(home_url('/')); ?>" class="logo">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.png" alt="logo">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo_black.png" alt="logo">
                 </a>
                 <!-- <button class="nav-toggle">≡</button> -->
                 <button class="nav-toggle">
@@ -40,7 +40,7 @@
                     echo '<li><a href="' . home_url('/#courses') . '">レッスンコース</a></li>';
                     echo '<li><a href="' . home_url('/#teacher-home') . '">講師・教室紹介</a></li>';
                     echo '<li><a href="' . home_url('/#access-parts') . '">アクセス</a></li>';
-                    echo '<li><a href="' . home_url('/#news-home') . '">お知らせ</a></li>';
+                    echo '<li><a href="' . home_url('/#news-home') . '">トピックス</a></li>';
                     echo '<li><a href="' . home_url('/#contact-parts') . '">お問い合わせ</a></li>';
                     echo '</ul>';
                 }

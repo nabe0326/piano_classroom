@@ -11,7 +11,7 @@ get_header();
     <!-- ページヘッダー -->
     <?php get_template_part('template-parts/page-header'); ?>
     <!-- イントロダクション -->
-    <section class="section course-intro">
+    <!-- <section class="section course-intro">
         <div class="container">
             <div class="intro-content">
                 <h2 class="intro-title">レッスンコース紹介</h2>
@@ -21,7 +21,7 @@ get_header();
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- メインコース一覧 -->
     <section class="section main-courses" id="main-courses">
@@ -162,45 +162,6 @@ get_header();
             </div>
             <div class="course-detail-card">
                 <div class="course-header">
-                    <h3 class="course-name">幼児音感グループコース（月3回）</h3>
-                </div>
-                <div class="course-body">
-                    <div class="course-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/privateLessons_cild.jpg" alt="幼児音感レッスン">
-                    </div>
-                    <div class="course-info">
-                        <div class="course-description">
-                            <p>音楽は子供の脳に良い影響を与えます。左脳（考える）右脳（イメージ）の発達に力を入れてます。ひらがな演習・作曲家暗唱・リズム・絵音符等を使って楽器演奏など、総合的な音楽力を独自のカリキュラムでお子様の発育をサポートします。</p>
-                        </div>
-
-                        <div class="price-section">
-                            <h4 class="price-title">料金表</h4>
-                            <div class="price-table">
-                                <div class="price-row">
-                                    <div class="price-level">1年目音感コース</div>
-                                    <div class="price-time">2名40分・3名45分</div>
-                                    <div class="price-amount">4,000円</div>
-                                </div>
-                                <div class="price-row">
-                                    <div class="price-level">2年目音感コース</div>
-                                    <div class="price-time">2名40分・3名45分</div>
-                                    <div class="price-amount">4,500円</div>
-                                </div>
-                                <div class="price-row">
-                                    <div class="price-level">ピアノグループ(2名以上)</div>
-                                    <div class="price-time">2名40分・3名45分</div>
-                                    <div class="price-amount">5,000円</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="course-footer">
-                    <a href="<?php echo home_url('/contact/'); ?>" class="btn course-contact-btn">このコースについて問い合わせる</a>
-                </div>
-            </div>
-            <div class="course-detail-card">
-                <div class="course-header">
                     <h3 class="course-name">YAMAHAコース（月3回）</h3>
                 </div>
                 <div class="course-body">
@@ -235,6 +196,45 @@ get_header();
                                     <div class="price-level"></div>
                                     <div class="price-time">45分</div>
                                     <div class="price-amount">13,500円</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="course-footer">
+                    <a href="<?php echo home_url('/contact/'); ?>" class="btn course-contact-btn">このコースについて問い合わせる</a>
+                </div>
+            </div>
+            <div class="course-detail-card">
+                <div class="course-header">
+                    <h3 class="course-name">幼児音感グループコース（月3回）</h3>
+                </div>
+                <div class="course-body">
+                    <div class="course-image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/privateLessons_cild.jpg" alt="幼児音感レッスン">
+                    </div>
+                    <div class="course-info">
+                        <div class="course-description">
+                            <p>音楽は子供の脳に良い影響を与えます。左脳（考える）右脳（イメージ）の発達に力を入れてます。ひらがな演習・作曲家暗唱・リズム・絵音符等を使って楽器演奏など、総合的な音楽力を独自のカリキュラムでお子様の発育をサポートします。</p>
+                        </div>
+
+                        <div class="price-section">
+                            <h4 class="price-title">料金表</h4>
+                            <div class="price-table">
+                                <div class="price-row">
+                                    <div class="price-level">1年目音感コース</div>
+                                    <div class="price-time">2名40分・3名45分</div>
+                                    <div class="price-amount">4,000円</div>
+                                </div>
+                                <div class="price-row">
+                                    <div class="price-level">2年目音感コース</div>
+                                    <div class="price-time">2名40分・3名45分</div>
+                                    <div class="price-amount">4,500円</div>
+                                </div>
+                                <div class="price-row">
+                                    <div class="price-level">ピアノグループ(2名以上)</div>
+                                    <div class="price-time">2名40分・3名45分</div>
+                                    <div class="price-amount">5,000円</div>
                                 </div>
                             </div>
                         </div>

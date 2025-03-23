@@ -57,6 +57,7 @@
                 <li><a href="<?php echo site_url('/course'); ?>">ボイストレーニングコース</a></li>
                 <li><a href="<?php echo site_url('/course'); ?>">ソルフェージュコース</a></li>
                 <li><a href="<?php echo site_url('/course'); ?>">受験コース</a></li>
+                <li><a href="<?php echo site_url('/course'); ?>">幼児音感グループコース</a></li>
             </ul>
             <a href="<?php echo site_url('/course'); ?>" class="btn course-all-btn">全コースを見る</a>
         </div>
